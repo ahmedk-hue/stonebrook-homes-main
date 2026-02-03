@@ -8,17 +8,12 @@ import Remodeling from './pages/services/Remodeling';
 import Commercial from './pages/services/Commercial';
 import Additions from './pages/services/Additions';
 import Locations from './pages/Locations';
-import Loveland from './pages/locations/Loveland';
-import FortCollins from './pages/locations/FortCollins';
-import Windsor from './pages/locations/Windsor';
-import Boulder from './pages/locations/Boulder';
-import Greeley from './pages/locations/Greeley';
-import Longmont from './pages/locations/Longmont';
-import Timnath from './pages/locations/Timnath';
-import Wellington from './pages/locations/Wellington';
-import Berthoud from './pages/locations/Berthoud';
-import Mead from './pages/locations/Mead';
-import Erie from './pages/locations/Erie';
+import Scottsdale from './pages/locations/Scottsdale';
+import ParadiseValley from './pages/locations/ParadiseValley';
+import FountainHills from './pages/locations/FountainHills';
+import Carefree from './pages/locations/Carefree';
+import CaveCreek from './pages/locations/CaveCreek';
+import Phoenix from './pages/locations/Phoenix';
 import Portfolio from './pages/Portfolio';
 import ProjectDetail from './pages/portfolio/ProjectDetail';
 import Process from './pages/Process';
@@ -60,17 +55,12 @@ function App() {
             <Route path="services/commercial" element={<Commercial />} />
             <Route path="services/additions" element={<Additions />} />
             <Route path="locations" element={<Locations />} />
-            <Route path="locations/loveland" element={<Loveland />} />
-            <Route path="locations/fort-collins" element={<FortCollins />} />
-            <Route path="locations/windsor" element={<Windsor />} />
-            <Route path="locations/boulder" element={<Boulder />} />
-            <Route path="locations/greeley" element={<Greeley />} />
-            <Route path="locations/longmont" element={<Longmont />} />
-            <Route path="locations/timnath" element={<Timnath />} />
-            <Route path="locations/wellington" element={<Wellington />} />
-            <Route path="locations/berthoud" element={<Berthoud />} />
-            <Route path="locations/mead" element={<Mead />} />
-            <Route path="locations/erie" element={<Erie />} />
+            <Route path="locations/scottsdale" element={<Scottsdale />} />
+            <Route path="locations/paradise-valley" element={<ParadiseValley />} />
+            <Route path="locations/fountain-hills" element={<FountainHills />} />
+            <Route path="locations/carefree" element={<Carefree />} />
+            <Route path="locations/cave-creek" element={<CaveCreek />} />
+            <Route path="locations/phoenix" element={<Phoenix />} />
             <Route path="portfolio" element={<Portfolio />} />
             <Route path="portfolio/:slug" element={<ProjectDetail />} />
             <Route path="process" element={<Process />} />

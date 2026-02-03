@@ -8,14 +8,14 @@ const Locations = () => {
     return (
         <>
             <SEO
-                title="Service Areas Northern Colorado | Homestead Builders"
-                description="Serving Fort Collins, Loveland, Windsor, and Boulder. Custom home building and remodeling across Northern Colorado's most desirable communities."
-                canonical="https://homesteadhomebuilders.com/locations"
+                title="Service Areas Scottsdale & Arizona Valley | Stonebrook Homes"
+                description="Serving Scottsdale, Paradise Valley, Cave Creek, and the Phoenix metro area. High-precision luxury custom home building across Arizona's premier communities."
+                canonical="https://stonebrook.homes/locations"
             />
 
             <PageHeader
                 title="Our Service Areas"
-                subtitle="Building capability across Northern Colorado's premier communities."
+                subtitle="High-precision luxury building across Scottsdale and the Arizona Valley."
                 backgroundImage="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?q=80&w=1948&auto=format&fit=crop"
                 breadcrumbs={[
                     { label: 'Home', path: '/' },
