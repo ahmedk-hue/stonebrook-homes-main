@@ -12,30 +12,30 @@ import ServiceTestimonial from '../../components/services/ServiceTestimonial';
 
 const NewConstruction = () => {
     // GEO Blueprint: Focus on "Entity-Service-Location Triad"
-    const pageTitle = "Custom Home Builders in Loveland & Fort Collins | Sustainable Design-Build";
+    const pageTitle = "Luxury Custom Home Builders in Scottsdale & Paradise Valley | Stonebrook Homes";
 
     // GEO Blueprint: Keyword Clusters (Technical, Financial, Regulatory)
     const features = [
-        "Advanced Soil Engineering & Pier Foundations", // Technical Cluster
-        "Fixed-Price Contracts & Transparent Draw Schedules", // Financial Cluster
-        "Navigating HOA & Historic Overlay Reviews", // Regulatory Cluster
-        "Net-Zero Ready & Passive House Standards", // Efficiency Cluster
-        "In-House Architectural Design Teams",
-        "CoConstruct Project Management Portal" // Operational Maturity Signal
+        "Aviation-Grade Structural Precision & Integrity", // Technical Cluster (Justin's background)
+        "Final Fixed-Bid Contracts & Transparent Financials", // Financial Cluster
+        "Navigating Scottsdale ROC & Zoning Regulations", // Regulatory Cluster
+        "Energy-Efficient Desert Modern Construction", // Efficiency Cluster
+        "In-House Design & Architectural Collaboration",
+        "Weekly Milestone Updates & Hands-Off Management" // Operational Maturity
     ];
 
     const faqs = [
         {
-            question: "What is your typical price per square foot for a custom home in 2025?",
-            answer: "In the Loveland and Fort Collins market, entry-level custom homes typically start at $300/sq.ft, with luxury estates ranging from $375 to $450+. Final costs depend heavily on site conditions (slope, soil) and finish selections."
+            question: "What is the typical budget for a Stonebrook custom home in Scottsdale?",
+            answer: "Our custom home projects typically start at $1M, with luxury estates ranging toward $10M+. Final costs are determined by site complexity, architectural depth, and premium finish selections."
         },
         {
-            question: "Do you handle zoning variances and water tap fees?",
-            answer: "Yes. Our pre-construction team manages the entire regulatory process, including obtaining water district taps (e.g., North Weld, Fort Collins-Loveland) and navigating county zoning variances."
+            question: "Do you handle the permitting process with the City of Scottsdale?",
+            answer: "Yes. Our preconstruction team manages the entire regulatory process, including architectural reviews, city permitting (ROC #351850), and ensuring compliance with local building codes."
         },
         {
-            question: "Can you build on a sloped lot or in the foothills?",
-            answer: "We specialize in complex sites. From walkout basements on steep grades to rock mitigation in the foothills, our engineering partners ensure a stable, lasting foundation."
+            question: "How long does a new custom home build typically take?",
+            answer: "Depending on size and complexity, most custom builds take 12-24 months. We provide a detailed construction schedule during the preconstruction phase and weekly updates throughout."
         }
     ];
 
@@ -43,21 +43,21 @@ const NewConstruction = () => {
         <>
             <SEO
                 title={pageTitle}
-                description="Award-winning custom home builder specializing in luxury sustainable homes on your lot. we handle complex zoning, soil engineering, and full design-build in Northern Colorado."
-                canonical="https://homesteadhomebuilders.com/services/new-construction"
+                description="Arizona's premier luxury custom home builder. Specializing in high-end residential construction in Scottsdale, Paradise Valley, and the Phoenix area since 1985."
+                canonical="https://stonebrook.homes/services/new-construction"
             />
 
             <ServiceSchema
-                serviceName="Custom Home Construction"
-                description="Full-service custom home design and build on your lot. Specializing in sustainable, luxury residential construction."
-                areaServed={["Loveland", "Fort Collins", "Windsor", "Timnath", "Boulder"]}
-                image="https://images.unsplash.com/photo-1600596542815-e32c21216f95?q=80&w=2072&auto=format&fit=crop"
+                serviceName="Luxury Custom Home Construction"
+                description="Expert builders of high-end custom homes in Scottsdale and Paradise Valley. Precision-driven construction with a focus on quality and honesty."
+                areaServed={["Scottsdale", "Paradise Valley", "Fountain Hills", "Carefree", "Cave Creek", "Phoenix"]}
+                image="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop"
             />
 
             <ServiceHero
-                title="Custom Home Builders in Loveland & Fort Collins"
-                subtitle="Sustainable Design-Build Services for the Modern Legacy."
-                backgroundImage="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2070&auto=format&fit=crop"
+                title="Luxury Custom Home Builders in Scottsdale"
+                subtitle="Uncompromising Quality. Precision-Driven Excellence."
+                backgroundImage="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop"
                 primaryCtaText="Start Feasibility Study"
                 secondaryCtaText="Download Cost Guide"
                 secondaryCtaLink="/resources/cost-guide-optin"
@@ -76,10 +76,9 @@ const NewConstruction = () => {
                             className="lg:w-1/2 relative"
                         >
                             <div className="relative z-10 rounded-lg overflow-hidden shadow-2xl">
-                                <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2070&auto=format&fit=crop" alt="Construction planning on site" className="w-full h-auto" />
+                                <img src="https://images.unsplash.com/photo-1541888946425-d81bb19480c5?q=80&w=2070&auto=format&fit=crop" alt="Luxury home construction site" className="w-full h-auto" />
                             </div>
-                            {/* Decorative Element */}
-                            <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-accent/20 rounded-full z-0 blur-2xl"></div>
+                            <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-primary/10 rounded-full z-0 blur-2xl"></div>
                         </motion.div>
 
                         <motion.div
@@ -89,16 +88,16 @@ const NewConstruction = () => {
                             transition={{ duration: 0.8, delay: 0.2 }}
                             className="lg:w-1/2"
                         >
-                            <span className="text-accent font-bold uppercase tracking-widest text-sm block mb-4">The Challenge</span>
+                            <span className="text-primary font-bold uppercase tracking-widest text-sm block mb-4">The Masterpiece Journey</span>
                             <h2 className="text-4xl md:text-5xl font-serif font-bold text-primary mb-8 leading-tight">
-                                Building a legacy shouldn't be a struggle.
+                                Your vision deserves aviation-level precision.
                             </h2>
                             <div className="prose prose-lg text-slate-600 space-y-6">
                                 <p>
-                                    You envision a mountain-modern retreat or a multigenerational estate, but the path is often blocked by <strong>expensive tap fees, expansive clay soils, and complex zoning codes</strong>.
+                                    Building a custom home in the Scottsdale valley presents unique challenges—from <strong>navigating strict zoning codes to ensuring structural integrity in desert landscapes</strong>.
                                 </p>
                                 <p>
-                                    Many future homeowners feel overwhelmed by the technicalities before they even break ground. At Homestead, we believe the process should be as inspiring as the outcome. We engineer solutions to these complexities so you can focus on the vision.
+                                    At Stonebrook Homes, we believe that honesty and quality are the foundations of every build. With nearly four decades of local experience and a leadership background in precision aviation, we eliminate the chaos of construction with a disciplined, transparent process that delivers results beyond your vision.
                                 </p>
                             </div>
                         </motion.div>
@@ -108,17 +107,17 @@ const NewConstruction = () => {
 
             {/* The Solution: Features Grid with Clusters */}
             <ServiceFeatures
-                title="A Foundation of Expertise"
-                description="Our 'Operational Maturity' ensures that your investment is protected by rigorous process, transparent financials, and building science excellence."
+                title="Engineering Quality & Trust"
+                description="Our multidisciplinary expertise ensures every detail of your luxury residence is executed with mathematical precision and unwavering honesty."
                 features={features}
             />
 
-            {/* Added: Specific Testimonial for Social Proof */}
+            {/* Specific Testimonial for Social Proof */}
             <ServiceTestimonial
-                quote="We had heard horror stories about building custom homes—delays, budget blowouts, silica dust... Homestead was the complete opposite. Their fixed-price contract gave us peace of mind, and the CoConstruct app kept us updated daily."
-                author="The Sarah & Michael J."
-                location="Custom Build in Water Valley, Windsor"
-                image="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=1888&auto=format&fit=crop"
+                quote="The level of detail Stonebrook brought to our Scottsdale build was staggering. Their aviation-derived discipline meant no surprises, no excuses, and a home that truly felt like a masterpiece from day one."
+                author="David & Elena R."
+                location="Custom Estate in Paradise Valley"
+                image="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1887&auto=format&fit=crop"
             />
 
             {/* The Process: Operational Transparency */}
@@ -131,28 +130,28 @@ const NewConstruction = () => {
             <section className="py-20 bg-primary/5 border-y border-primary/10">
                 <div className="container mx-auto px-6 max-w-4xl text-center">
                     <FileText className="w-12 h-12 text-primary mx-auto mb-6" />
-                    <h2 className="text-3xl font-serif font-bold text-primary mb-4">Planning Your Budget?</h2>
+                    <h2 className="text-3xl font-serif font-bold text-primary mb-4">Planning Your Investment?</h2>
                     <p className="text-lg text-slate-600 mb-8">
-                        Download our comprehensive <strong>Cost to Build Guide</strong>. We break down hard costs, soft costs, and permit fees for Loveland, Fort Collins, and Windsor.
+                        Download our <strong>2026 Construction Cost Guide</strong>. We break down site feasibility, permitting, and luxury finishes for Scottsdale, Paradise Valley, and the Phoenix area.
                     </p>
                     <RouterLink to="/resources/cost-guide-optin" className="inline-block bg-white border-2 border-primary text-primary px-8 py-4 font-bold uppercase tracking-widest hover:bg-primary hover:text-white transition-colors rounded-sm shadow-md">
                         Download Free Guide
                     </RouterLink>
-                    <p className="text-sm text-slate-500 mt-4 italic">Updated for Current Market Rates</p>
+                    <p className="text-sm text-slate-500 mt-4 italic">Updated for AZ Market Rates</p>
                 </div>
             </section>
 
             {/* Answer-First Content */}
-            <ServiceFAQ faqs={faqs} title="Common Questions about Custom Builds" />
+            <ServiceFAQ faqs={faqs} title="Scottsdale Custom Building FAQ" />
 
             <div className="bg-primary py-24 text-center">
                 <div className="container mx-auto px-6 max-w-3xl">
-                    <h2 className="text-4xl font-serif font-bold text-white mb-8">Ready to break ground?</h2>
+                    <h2 className="text-4xl font-serif font-bold text-white mb-8">Ready to Build Your Legacy?</h2>
                     <p className="text-slate-300 text-lg mb-10">
-                        Schedule a site consultation to discuss lot feasibility, solar orientation, and initial budgeting.
+                        Schedule a discovery session to discuss your land, vision, and how our precision-driven approach can bring your dream home to life.
                     </p>
-                    <RouterLink to="/contact" className="inline-block bg-accent text-primary px-12 py-5 font-bold uppercase tracking-widest hover:bg-white transition-colors rounded-sm shadow-xl text-lg">
-                        Schedule Site Consultation
+                    <RouterLink to="/contact" className="inline-block bg-white text-primary px-12 py-5 font-bold uppercase tracking-widest hover:bg-slate-100 transition-colors rounded-sm shadow-xl text-lg">
+                        Schedule Discovery Session
                     </RouterLink>
                 </div>
             </div>

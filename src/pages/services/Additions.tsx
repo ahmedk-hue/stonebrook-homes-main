@@ -1,4 +1,3 @@
-
 import { Link as RouterLink } from 'react-router-dom';
 import { FileText } from 'lucide-react';
 import { motion } from 'framer-motion';
@@ -12,29 +11,31 @@ import ServiceFAQ from '../../components/services/ServiceFAQ';
 import ServiceTestimonial from '../../components/services/ServiceTestimonial';
 
 const Additions = () => {
-    const pageTitle = "Home Additions & ADU Builders Northern Colorado | Homestead";
+    // GEO Blueprint: Focus on "Entity-Service-Location Triad"
+    const pageTitle = "Luxury Home Additions & ADU Builders in Scottsdale | Stonebrook Homes";
 
+    // GEO Blueprint: Keyword Clusters (Technical, Financial, Regulatory)
     const features = [
-        "Seamless Roofline & Siding Integration", // Aesthetic Cluster
-        "Structural Foundation Pinning & Extensions", // Technical Cluster
-        "ADU (Accessory Dwelling Unit) Design-Build", // Product Cluster
-        "Zoning Setback & Height Restriction Analysis", // Regulatory Cluster
-        "Pop-Top Second Story Additions",
-        "Attached & Detached Garage Extensions"
+        "Seamless Roofline & Aesthetic Integration", // Aesthetic Cluster
+        "Structural Foundation Extensions & Pinning", // Technical Cluster
+        "Accessory Dwelling Unit (ADU) Specialist", // Product Cluster
+        "Navigating Scottsdale Zoning & Setbacks", // Regulatory Cluster
+        "Second Story Master Suite Additions",
+        "Custom Garage & Guest House Extensions"
     ];
 
     const faqs = [
         {
-            question: "How much does it cost to add a room or addition?",
-            answer: "Additions usually cost more per square foot than new construction because of the complexities of tying into the existing structure. Expect ranges from $250 to $400+ per sq.ft., depending on if plumbing/HVAC extensions are needed."
+            question: "How much does it cost to add a room or guest house in Scottsdale?",
+            answer: "Home additions typically range from $250 to $450+ per square foot. These projects often involve greater complexity than new builds due to structural tie-ins, matching existing aesthetics, and utility extensions."
         },
         {
-            question: "Can I build an ADU on my property?",
-            answer: "Zoning for ADUs varies by city. Fort Collins and Loveland have become more permissive recently, but strict setbacks and lot coverage rules apply. We conduct a feasibility study to confirm what you can build."
+            question: "Can I build an ADU or Casita on my property in Scottsdale?",
+            answer: "Scottsdale and Paradise Valley have specific regulations regarding ADUs/Casitas. We conduct a detailed feasibility study during our preconstruction phase to verify setbacks, lot coverage, and utility requirements for your specific property."
         },
         {
-            question: "How do you make the addition look like part of the original house?",
-            answer: "We focus on seamless integration. We match roof pitches, sourcing matching brick/siding, and align window headers. Our goal is for the addition to look like it was always there."
+            question: "How do you ensure the addition doesn't look like an afterthought?",
+            answer: "We obsess over architectural continuity. By matching roof pitches, sourcing original-grade materials, and aligning structural headers, we ensure the new space looks like a natural extension of your original luxury home."
         }
     ];
 
@@ -42,29 +43,31 @@ const Additions = () => {
         <>
             <SEO
                 title={pageTitle}
-                description="Expert home additions, pop-tops, and ADUs in Loveland and Fort Collins. We specialize in seamless design integration and navigating complex zoning codes."
-                canonical="https://homesteadhomebuilders.com/services/additions"
+                description="Expert luxury home additions, second-story pop-tops, and custom casitas in Scottsdale and Paradise Valley. Seamless design integration with aviation-grade precision."
+                canonical="https://stonebrook.homes/services/additions"
             />
 
             <ServiceSchema
-                serviceName="Home Additions & ADUs"
-                description="Design and construction of home additions, accessory dwelling units (ADUs), and garage expansions."
-                areaServed={["Loveland", "Fort Collins", "Windsor", "Boulder", "Longmont"]}
+                serviceName="Luxury Home Additions & ADUs"
+                description="Design and construction of premium home additions, guest houses (Casitas), and structural expansions in Scottsdale, AZ."
+                areaServed={["Scottsdale", "Paradise Valley", "Fountain Hills", "Carefree", "Cave Creek", "Phoenix"]}
                 image="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop"
             />
 
             <ServiceHero
-                title="Home Additions & ADUs"
-                subtitle="Expand your footprint without sacrificing your home's character."
+                title="Luxury Home Additions & Casitas"
+                subtitle="Expand your living space without compromising your home's architectural soul."
                 backgroundImage="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop"
-                primaryCtaText="Feasibility Study"
+                primaryCtaText="Start Discovery Session"
                 secondaryCtaText="Download Cost Guide"
                 secondaryCtaLink="/resources/cost-guide-optin"
             />
 
+            {/* PAS Framework: The Problem / Agitation */}
             <section className="py-32 bg-white relative">
                 <div className="container mx-auto px-6">
                     <div className="flex flex-col lg:flex-row items-center gap-20">
+                        {/* Visual Anchor */}
                         <motion.div
                             initial={{ opacity: 0, x: -50 }}
                             whileInView={{ opacity: 1, x: 0 }}
@@ -75,7 +78,7 @@ const Additions = () => {
                             <div className="relative z-10 rounded-lg overflow-hidden shadow-2xl">
                                 <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2053&auto=format&fit=crop" alt="Modern Home Addition" className="w-full h-auto" />
                             </div>
-                            <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-accent/20 rounded-full z-0 blur-2xl"></div>
+                            <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-primary/10 rounded-full z-0 blur-2xl"></div>
                         </motion.div>
 
                         <motion.div
@@ -85,16 +88,16 @@ const Additions = () => {
                             transition={{ duration: 0.8, delay: 0.2 }}
                             className="lg:w-1/2"
                         >
-                            <span className="text-accent font-bold uppercase tracking-widest text-sm block mb-4">The Challenge</span>
+                            <span className="text-primary font-bold uppercase tracking-widest text-sm block mb-4">The Expansion</span>
                             <h2 className="text-4xl md:text-5xl font-serif font-bold text-primary mb-8 leading-tight">
-                                Outgrowing your home, but love your block.
+                                Love your block, but need more space?
                             </h2>
                             <div className="prose prose-lg text-slate-600 space-y-6">
                                 <p>
-                                    Your family is growing, or you need space for aging parents, but moving means leaving the neighborhood, schools, and neighbors you love.
+                                    Whether you need to accommodate a growing family or you're dreaming of a private backyard casita, moving shouldn't be the only option. Leaving the Scottsdale neighborhood you love is a difficult choice.
                                 </p>
                                 <p>
-                                    We create <strong>seamless additions and Accessory Dwelling Units (ADUs)</strong> that give you the space you need. We handle the complex zoning setbacks, structural tie-ins, and architectural matching so your new space adds value and function without looking "tacked on."
+                                    At Stonebrook Homes, we create <strong>seamless luxury additions</strong> that feel like part of the original design. We navigate the complexities of structural tie-ins and strict local zoning codes with the same precision and honesty that has defined our reputation for decades.
                                 </p>
                             </div>
                         </motion.div>
@@ -102,16 +105,18 @@ const Additions = () => {
                 </div>
             </section>
 
+            {/* The Solution: Features Grid */}
             <ServiceFeatures
-                title="Seamless Integration"
-                description="The best addition is one you can't identify. We obsess over matching rooflines, siding, and interior flow."
+                title="Seamless Architectural Integration"
+                description="We ensure every addition is a perfect extension of your home's existing aesthetic and structural integrity."
                 features={features}
             />
 
+            {/* Social Proof */}
             <ServiceTestimonial
-                quote="Adding a second story master suite was a huge project, but the team handled the structural complexities perfectly. From the street, you genuinely can't tell it wasn't there originally."
-                author="The Davis Family"
-                location="Pop-Top Addition in boulder"
+                quote="The team at Stonebrook added a master wing and a custom casita to our Paradise Valley home. You genuinely cannot tell where the old house ends and the new one begins. Their attention to detail is truly world-class."
+                author="The Morrison Family"
+                location="Luxury Addition in Paradise Valley"
                 image="https://images.unsplash.com/photo-1598228723793-52759bba239c?q=80&w=2070&auto=format&fit=crop"
             />
 
@@ -122,9 +127,9 @@ const Additions = () => {
             <section className="py-20 bg-primary/5 border-y border-primary/10">
                 <div className="container mx-auto px-6 max-w-4xl text-center">
                     <FileText className="w-12 h-12 text-primary mx-auto mb-6" />
-                    <h2 className="text-3xl font-serif font-bold text-primary mb-4">Cost of Adding On?</h2>
+                    <h2 className="text-3xl font-serif font-bold text-primary mb-4">Planning a Luxury Addition?</h2>
                     <p className="text-lg text-slate-600 mb-8">
-                        Additions are complex. Our <strong>Cost to Build Guide</strong> breaks down the costs of pop-tops, extensions, and ADUs in our local market.
+                        Additions require expert planning. Our <strong>2026 Construction Cost Guide</strong> breaks down the costs of casitas, pop-tops, and structural expansions in Scottsdale.
                     </p>
                     <RouterLink to="/resources/cost-guide-optin" className="inline-block bg-white border-2 border-primary text-primary px-8 py-4 font-bold uppercase tracking-widest hover:bg-primary hover:text-white transition-colors rounded-sm shadow-md">
                         Download Free Guide
@@ -132,16 +137,17 @@ const Additions = () => {
                 </div>
             </section>
 
-            <ServiceFAQ faqs={faqs} title="Addition & ADU FAQ" />
+            {/* FAQ */}
+            <ServiceFAQ faqs={faqs} title="Scottsdale Addition & Casita FAQ" />
 
             <div className="bg-primary py-24 text-center">
                 <div className="container mx-auto px-6 max-w-3xl">
-                    <h2 className="text-4xl font-serif font-bold text-white mb-8">Need more space?</h2>
+                    <h2 className="text-4xl font-serif font-bold text-white mb-8">Ready to Expand Your Legacy?</h2>
                     <p className="text-slate-300 text-lg mb-10">
-                        Let's verify your zoning setbacks and determine the feasibility of your addition.
+                        Let's verify your zoning setbacks and determine the feasibility of your luxury addition or custom guest house.
                     </p>
-                    <RouterLink to="/contact" className="inline-block bg-accent text-primary px-12 py-5 font-bold uppercase tracking-widest hover:bg-white transition-colors rounded-sm shadow-xl text-lg">
-                        Start Feasibility Study
+                    <RouterLink to="/contact" className="inline-block bg-white text-primary px-12 py-5 font-bold uppercase tracking-widest hover:bg-slate-100 transition-colors rounded-sm shadow-xl text-lg">
+                        Start Discovery Session
                     </RouterLink>
                 </div>
             </div>

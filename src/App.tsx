@@ -5,7 +5,7 @@ import Home from './pages/Home';
 import Services from './pages/Services';
 import NewConstruction from './pages/services/NewConstruction';
 import Remodeling from './pages/services/Remodeling';
-import BasementFinishing from './pages/services/BasementFinishing';
+import Commercial from './pages/services/Commercial';
 import Additions from './pages/services/Additions';
 import Locations from './pages/Locations';
 import Loveland from './pages/locations/Loveland';
@@ -57,7 +57,7 @@ function App() {
             <Route path="services" element={<Services />} />
             <Route path="services/new-construction" element={<NewConstruction />} />
             <Route path="services/remodeling" element={<Remodeling />} />
-            <Route path="services/basement-finishing" element={<BasementFinishing />} />
+            <Route path="services/commercial" element={<Commercial />} />
             <Route path="services/additions" element={<Additions />} />
             <Route path="locations" element={<Locations />} />
             <Route path="locations/loveland" element={<Loveland />} />

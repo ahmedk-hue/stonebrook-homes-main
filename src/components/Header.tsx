@@ -28,7 +28,7 @@ const Header = () => {
             children: [
                 { name: 'New Construction', path: '/services/new-construction' },
                 { name: 'Remodeling', path: '/services/remodeling' },
-                { name: 'Basement Finishing', path: '/services/basement-finishing' },
+                { name: 'Commercial Construction', path: '/services/commercial' },
                 { name: 'Additions', path: '/services/additions' },
             ]
         },
