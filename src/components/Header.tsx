@@ -35,19 +35,7 @@ const Header = () => {
         {
             name: 'Locations',
             path: '/locations',
-            children: [
-                { name: 'Loveland', path: '/locations/loveland' },
-                { name: 'Fort Collins', path: '/locations/fort-collins' },
-                { name: 'Windsor', path: '/locations/windsor' },
-                { name: 'Boulder', path: '/locations/boulder' },
-                { name: 'Greeley', path: '/locations/greeley' },
-                { name: 'Longmont', path: '/locations/longmont' },
-                { name: 'Timnath', path: '/locations/timnath' },
-                { name: 'Wellington', path: '/locations/wellington' },
-                { name: 'Berthoud', path: '/locations/berthoud' },
-                { name: 'Mead', path: '/locations/mead' },
-                { name: 'Erie', path: '/locations/erie' },
-            ]
+            children: SITE_CONFIG.serviceAreas
         },
         { name: 'Pricing', path: '/resources/cost-guide-optin' },
         { name: 'Portfolio', path: '/portfolio' },

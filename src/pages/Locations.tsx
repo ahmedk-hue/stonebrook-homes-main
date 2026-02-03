@@ -64,7 +64,7 @@ const Locations = () => {
                 <div className="container mx-auto px-6 text-center max-w-4xl">
                     <h2 className="text-3xl font-serif font-bold text-primary mb-6">Don't see your city?</h2>
                     <p className="text-lg text-slate-600 mb-8">
-                        We serve the greater Northern Colorado area. If you possess a lot of land outside these main hubs, please reach out. We frequently travel for the right custom projects.
+                        We serve the greater Scottsdale and Arizona Valley area. If you possess a lot of land outside these main hubs, please reach out. We frequently travel for the right custom projects.
                     </p>
                     <Link
                         to="/contact"
