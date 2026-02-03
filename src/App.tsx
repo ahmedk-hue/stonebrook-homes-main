@@ -38,7 +38,6 @@ const Placeholder = ({ title }: { title: string }) => (
     <p className="text-slate-600">This page is under construction.</p>
   </div>
 );
-
 import ScrollToTop from './components/ScrollToTop';
 
 function App() {
@@ -70,7 +69,6 @@ function App() {
             <Route path="booking" element={<Booking />} />
             <Route path="thank-you" element={<ThankYou />} />
             <Route path="resources/cost-guide-optin" element={<CostGuideOptIn />} />
-            <Route path="resources/cost-guide" element={<CostGuide />} />
             <Route path="resources/cost-guide" element={<CostGuide />} />
             <Route path="resources" element={<Resources />} />
             <Route path="about" element={<About />} />
