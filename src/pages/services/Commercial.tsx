@@ -1,5 +1,5 @@
 import { Link as RouterLink } from 'react-router-dom';
-import { FileText, Building2 } from 'lucide-react';
+import { Building2 } from 'lucide-react';
 import { motion } from 'framer-motion';
 import SEO from '../../components/SEO';
 import ServiceSchema from '../../components/seo/ServiceSchema';
