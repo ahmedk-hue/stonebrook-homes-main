@@ -24,6 +24,58 @@ export interface ProjectData {
 
 export const projects: ProjectData[] = [
     {
+        slug: 'prairie-horizon',
+        title: "The Prairie Horizon",
+        category: "Custom Build",
+        location: "Scottsdale, AZ",
+        description: "A 5,500 sq ft legacy build in Scottsdale, engineered for a family that values both architectural boldness and technical precision.",
+        challenge: "The client wanted a home that felt expansive and open, yet provided complete acoustic privacy and integrated smart home automation that 'disappeared' into the design.",
+        solution: "We utilized massive floor-to-ceiling glazing with high-performance thermal breaks to maintain efficiency while opening the home to desert views. Integrated smart systems manage everything from lighting to climate, all controlled via a unified interface.",
+        stats: {
+            sqFt: "5,500",
+            duration: "18 Months",
+            beds: "5",
+            baths: "5.5"
+        },
+        mainImage: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop",
+        gallery: [
+            "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=2070&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?q=80&w=2070&auto=format&fit=crop"
+        ],
+        testimonial: {
+            videoThumbnail: "https://images.unsplash.com/photo-1516156008625-3a9d60bdd72e?q=80&w=2070&auto=format&fit=crop",
+            videoUrl: "#",
+            quote: "Stonebrook handled the complexity of our Scottsdale build with staggering detail. No surprises, no excuses, just execution.",
+            author: "The Miller Family"
+        }
+    },
+    {
+        slug: 'modern-farmhouse-cave-creek',
+        title: "The Modern Farmhouse",
+        category: "Custom Build",
+        location: "Cave Creek, AZ",
+        description: "A luxury estate on private land in Cave Creek, reimagining the farmhouse aesthetic for the desert landscape.",
+        challenge: "Navigating Cave Creek's unique topography and strict residential design guidelines while the client requested seamless indoor-outdoor living with expansive glazing.",
+        solution: "We engineered custom structural cantilevers to support large patio overhangs without obstructing views. The home features a zero-edge pool that visually merges with the desert horizon.",
+        stats: {
+            sqFt: "4,800",
+            duration: "16 Months",
+            beds: "4",
+            baths: "4.5"
+        },
+        mainImage: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?q=80&w=2071&auto=format&fit=crop",
+        gallery: [
+            "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2053&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1600607687644-c7171b42498f?q=80&w=2070&auto=format&fit=crop"
+        ],
+        testimonial: {
+            videoThumbnail: "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?q=80&w=2070&auto=format&fit=crop",
+            videoUrl: "#",
+            quote: "Our dream was to have a home that truly felt apart of the Cave Creek desert. Stonebrook's technical mastery made it a reality.",
+            author: "The Anderson Family"
+        }
+    },
+    {
         slug: 'silverleaf-manor',
         title: "Silverleaf Manor",
         category: "Custom Build",

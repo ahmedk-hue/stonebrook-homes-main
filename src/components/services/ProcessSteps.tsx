@@ -4,27 +4,27 @@ const steps = [
     {
         icon: Search,
         title: "1. Discovery Session",
-        description: "Simple meeting to see if your project aligns with us. We’ll answer any questions and help you with anything needed."
+        description: "A simple, low-pressure meeting to verify alignment. We answer your initial questions and determine if your vision fits our capabilities."
     },
     {
         icon: PenTool,
         title: "2. Concept Designs",
-        description: "We connect you with our in-house architect team and drafting team to bring your vision into reality."
+        description: "We connect you with our in-house architect and drafting teams. We take your vision—from Pinterest boards to napkins—and translate it into real architectural plans."
     },
     {
         icon: FileCheck,
-        title: "3. Preconstruction",
-        description: "We finalize plans, begin permitting, and provide you with a final bid to ensure you're ready to break ground."
+        title: "3. Preconstruction (The Safety Phase)",
+        description: "This is where we mitigate risk. We finalize plans, secure city permits, and provide a final, hard bid. You enter construction knowing exactly what you are building and what it costs."
     },
     {
         icon: Hammer,
         title: "4. Construction",
-        description: "Hands-off approach with weekly updates and easy payment draws. We work with you on all major milestones."
+        description: "Enjoy a hands-off experience. We provide weekly video updates and manage all on-site activity. You simply approve milestones and watch your home rise."
     },
     {
         icon: Key,
         title: "5. Walkthrough",
-        description: "Our final walkthrough where we make sure that your home really lives up to the dream you envisioned."
+        description: "The final reveal. We conduct a meticulous walkthrough to ensure every detail matches the dream you envisioned before handing over the keys."
     }
 ];
 

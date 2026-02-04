@@ -12,30 +12,33 @@ import ServiceTestimonial from '../../components/services/ServiceTestimonial';
 
 const NewConstruction = () => {
     // GEO Blueprint: Focus on "Entity-Service-Location Triad"
-    const pageTitle = "Luxury Custom Home Builders in Scottsdale & Paradise Valley | Stonebrook Homes";
+    const pageTitle = "Custom Home Builders Scottsdale | Luxury Home Construction - Stonebrook Homes";
 
-    // GEO Blueprint: Keyword Clusters (Technical, Financial, Regulatory)
     const features = [
-        "Aviation-Grade Structural Precision & Integrity", // Technical Cluster (Justin's background)
-        "Final Fixed-Bid Contracts & Transparent Financials", // Financial Cluster
-        "Navigating Scottsdale ROC & Zoning Regulations", // Regulatory Cluster
-        "Energy-Efficient Desert Modern Construction", // Efficiency Cluster
-        "In-House Design & Architectural Collaboration",
-        "Weekly Milestone Updates & Hands-Off Management" // Operational Maturity
+        "Aviation-Grade Technical Precision & Integrity",
+        "Transparent Financial Stewardship & Fixed-Bid Contracts",
+        "Regulatory Mastery & Local Zoning Expertise",
+        "Energy-Efficient Desert Modern Engineering",
+        "Concept-to-Blueprint Architectural Coordination",
+        "Weekly Video Updates & Operational Excellence"
     ];
 
     const faqs = [
         {
-            question: "What is the typical budget for a Stonebrook custom home in Scottsdale?",
-            answer: "Our custom home projects typically start at $1M, with luxury estates ranging toward $10M+. Final costs are determined by site complexity, architectural depth, and premium finish selections."
+            question: "What is the cost per square foot for custom homes in Scottsdale?",
+            answer: "While 'cost per square foot' can be misleading due to finish variables, our custom home projects generally start at a budget of $1M+. For a precise quote, we recommend a Feasibility Study rather than rough square-footage math."
         },
         {
-            question: "Do you handle the permitting process with the City of Scottsdale?",
-            answer: "Yes. Our preconstruction team manages the entire regulatory process, including architectural reviews, city permitting (ROC #351850), and ensuring compliance with local building codes."
+            question: "Do you build on my land (BOYL)?",
+            answer: "Yes. We specialize in 'homes built on your land.' Whether you own a lot in Cave Creek or need help assessing a plot in Paradise Valley, we manage the site development, utility runs, and vertical construction."
         },
         {
-            question: "How long does a new custom home build typically take?",
-            answer: "Depending on size and complexity, most custom builds take 12-24 months. We provide a detailed construction schedule during the preconstruction phase and weekly updates throughout."
+            question: "How long does it take to build a custom home?",
+            answer: "A typical luxury build takes between 12 to 24 months depending on complexity and size. We will provide a detailed timeline during the Preconstruction phase."
+        },
+        {
+            question: "Do you handle the architectural design?",
+            answer: "Yes. In our 'Concept Designs' phase, we utilize our in-house teams to move you from concept to blueprint seamlessly."
         }
     ];
 
@@ -43,7 +46,7 @@ const NewConstruction = () => {
         <>
             <SEO
                 title={pageTitle}
-                description="Arizona's premier luxury custom home builder. Specializing in high-end residential construction in Scottsdale, Paradise Valley, and the Phoenix area since 1985."
+                description="From Paradise Valley estates to Carefree retreats—we build legacy homes with aviation-level precision, transparent financials, and a focus on your lifestyle."
                 canonical="https://stonebrook.homes/services/new-construction"
             />
 
@@ -55,19 +58,18 @@ const NewConstruction = () => {
             />
 
             <ServiceHero
-                title="Luxury Custom Home Builders in Scottsdale"
-                subtitle="Uncompromising Quality. Precision-Driven Excellence."
+                title="Custom Home Builders in Scottsdale & The Phoenix Valley"
+                subtitle="Aviation-Level Precision Meets Luxury Design. Legacy homes built with discipline and transparency."
                 backgroundImage="/luxury-home-site.jpg"
-                primaryCtaText="Start Feasibility Study"
-                secondaryCtaText="Download Cost Guide"
+                primaryCtaText="Schedule Your Feasibility Study"
+                secondaryCtaText="Download 2026 Construction Cost Guide"
                 secondaryCtaLink="/resources/cost-guide-optin"
             />
 
-            {/* PAS Framework: The Problem / Agitation - Softened & Humanized */}
+            {/* PAS Framework: The Empathy Layer */}
             <section className="py-32 bg-white relative">
                 <div className="container mx-auto px-6">
                     <div className="flex flex-col lg:flex-row items-center gap-20">
-                        {/* Visual Anchor for Emotional Connection */}
                         <motion.div
                             initial={{ opacity: 0, x: -50 }}
                             whileInView={{ opacity: 1, x: 0 }}
@@ -88,16 +90,16 @@ const NewConstruction = () => {
                             transition={{ duration: 0.8, delay: 0.2 }}
                             className="lg:w-1/2"
                         >
-                            <span className="text-primary font-bold uppercase tracking-widest text-sm block mb-4">The Masterpiece Journey</span>
+                            <span className="text-primary font-bold uppercase tracking-widest text-sm block mb-4">The Antidote to Construction Chaos</span>
                             <h2 className="text-4xl md:text-5xl font-serif font-bold text-primary mb-8 leading-tight">
-                                Your vision deserves aviation-level precision.
+                                Breaking the cycle of uncertainty.
                             </h2>
                             <div className="prose prose-lg text-slate-600 space-y-6">
                                 <p>
-                                    Building a custom home in the Scottsdale valley presents unique challenges—from <strong>navigating strict zoning codes to ensuring structural integrity in desert landscapes</strong>.
+                                    Building a custom home should be the highlight of your life, but for many Arizona families, it becomes a source of anxiety. The industry is plagued by vague estimates that skyrocket and contractors who lack operational discipline.
                                 </p>
                                 <p>
-                                    At Stonebrook Homes, we believe that honesty and quality are the foundations of every build. With nearly four decades of local experience and a leadership background in precision aviation, we eliminate the chaos of construction with a disciplined, transparent process that delivers results beyond your vision.
+                                    <strong>Stonebrook Homes offers a different path.</strong> Founded by Michael Leighton and Justin Sexton, we merge forty years of construction heritage with the rigorous discipline of commercial aviation. Justin, a commercial pilot, brings flight-deck precision to the job site—ensuring your home is engineered for safety, efficiency, and peace of mind.
                                 </p>
                             </div>
                         </motion.div>
@@ -105,10 +107,10 @@ const NewConstruction = () => {
                 </div>
             </section>
 
-            {/* The Solution: Features Grid with Clusters */}
+            {/* Competence Layer: Our 3 Pillars */}
             <ServiceFeatures
-                title="Engineering Quality & Trust"
-                description="Our multidisciplinary expertise ensures every detail of your luxury residence is executed with mathematical precision and unwavering honesty."
+                title="Three Pillars of Competence"
+                description="We believe true luxury is the absence of worry. Here is how we protect your investment through technical precision, financial safety, and regulatory mastery."
                 features={features}
             />
 
@@ -126,18 +128,18 @@ const NewConstruction = () => {
             {/* Proof Ecosystem: Project Cards & Contextual Evidence */}
             <RelatedProjects category="Custom Build" />
 
-            {/* Soft Conversion: Cost Guide CTA */}
+            {/* Soft Conversion: Lead Magnet */}
             <section className="py-20 bg-primary/5 border-y border-primary/10">
                 <div className="container mx-auto px-6 max-w-4xl text-center">
                     <FileText className="w-12 h-12 text-primary mx-auto mb-6" />
-                    <h2 className="text-3xl font-serif font-bold text-primary mb-4">Planning Your Investment?</h2>
+                    <h2 className="text-3xl font-serif font-bold text-primary mb-4">Not ready to build just yet?</h2>
                     <p className="text-lg text-slate-600 mb-8">
-                        Download our <strong>2026 Construction Cost Guide</strong>. We break down site feasibility, permitting, and luxury finishes for Scottsdale, Paradise Valley, and the Phoenix area.
+                        Most people underestimate the cost of luxury construction by 20-30%. Get the numbers first. Download our <strong>2026 Construction Cost Guide</strong> for real-world pricing trends.
                     </p>
                     <RouterLink to="/resources/cost-guide-optin" className="inline-block bg-white border-2 border-primary text-primary px-8 py-4 font-bold uppercase tracking-widest hover:bg-primary hover:text-white transition-colors rounded-sm shadow-md">
-                        Download Free Guide
+                        Download 2026 Cost Guide
                     </RouterLink>
-                    <p className="text-sm text-slate-500 mt-4 italic">Updated for AZ Market Rates</p>
+                    <p className="text-sm text-slate-500 mt-4 italic">Updated for the Phoenix Valley Market</p>
                 </div>
             </section>
 
@@ -151,7 +153,7 @@ const NewConstruction = () => {
                         Schedule a discovery session to discuss your land, vision, and how our precision-driven approach can bring your dream home to life.
                     </p>
                     <RouterLink to="/contact" className="inline-block bg-white text-primary px-12 py-5 font-bold uppercase tracking-widest hover:bg-slate-100 transition-colors rounded-sm shadow-xl text-lg">
-                        Schedule Discovery Session
+                        Schedule Your Feasibility Study
                     </RouterLink>
                 </div>
             </div>
