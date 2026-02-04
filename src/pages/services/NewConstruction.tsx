@@ -76,7 +76,7 @@ const NewConstruction = () => {
                             className="lg:w-1/2 relative"
                         >
                             <div className="relative z-10 rounded-lg overflow-hidden shadow-2xl">
-                                <img src="https://images.unsplash.com/photo-1541888946425-d81bb19480c5?q=80&w=2070&auto=format&fit=crop" alt="Luxury home construction site" className="w-full h-auto" />
+                                <img src="/luxury-home-site.jpg" alt="Luxury home construction site" className="w-full h-auto" />
                             </div>
                             <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-primary/10 rounded-full z-0 blur-2xl"></div>
                         </motion.div>
