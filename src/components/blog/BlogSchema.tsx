@@ -20,7 +20,7 @@ const BlogSchema = ({ title, description, datePublished, authorName, image, url 
         "dateModified": datePublished, // Ideally this would track updates
         "author": {
             "@type": "Person",
-            "name": "Stonebrook Homes",
+            "name": authorName,
             "url": "https://stonebrook.homes/about"
         },
         "publisher": {
