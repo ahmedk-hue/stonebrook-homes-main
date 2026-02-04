@@ -5,6 +5,10 @@ import { SITE_CONFIG } from '../config/site';
 interface SEOProps {
     title: string;
     description: string;
+    keywords?: string;
+    robots?: string;
+    author?: string;
+    publisher?: string;
     canonical?: string;
     type?: 'website' | 'article';
     name?: string;
@@ -14,6 +18,10 @@ interface SEOProps {
 const SEO: React.FC<SEOProps> = ({
     title,
     description,
+    keywords,
+    robots = 'index, follow',
+    author = SITE_CONFIG.name,
+    publisher = SITE_CONFIG.name,
     canonical = 'https://stonebrook.homes', // This should technically be dynamic too, but requires base URL config if flexible
     type = 'website',
     name = SITE_CONFIG.name,
@@ -24,6 +32,10 @@ const SEO: React.FC<SEOProps> = ({
             {/* Standard Metadata */}
             <title>{title}</title>
             <meta name="description" content={description} />
+            <meta name="robots" content={robots} />
+            {keywords && <meta name="keywords" content={keywords} />}
+            <meta name="author" content={author} />
+            <meta name="publisher" content={publisher} />
             <link rel="canonical" href={canonical} />
 
             {/* Open Graph */}

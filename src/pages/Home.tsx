@@ -11,8 +11,10 @@ const Home = () => {
     return (
         <>
             <SEO
-                title={`Luxury Custom Home Builders Scottsdale & Paradise Valley | ${SITE_CONFIG.name}`}
-                description={`${SITE_CONFIG.name} provides high-precision custom home construction, luxury remodeling, and commercial build-outs in Scottsdale and Paradise Valley. Aviation-grade precision and honesty.`}
+                title="Luxury Custom Home Builders Scottsdale | Stonebrook Homes"
+                description="Scottsdale's premier builder for luxury custom homes & remodeling. We bring aviation-grade precision and transparency to every build. Start your legacy."
+                keywords="Custom home builder, luxury home builders Scottsdale, Paradise Valley custom homes, aviation grade construction, Stonebrook Homes"
+                robots="index, follow"
             />
 
             {/* Premium Hero Section - Redesigned */}
