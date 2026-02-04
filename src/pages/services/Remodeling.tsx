@@ -44,6 +44,8 @@ const Remodeling = () => {
             <SEO
                 title={pageTitle}
                 description="Expert luxury home remodeling in Scottsdale and Paradise Valley. From open-concept kitchens to complete estate transformations, we build with precision and honesty."
+                keywords="Home Remodeling Scottsdale, Luxury Renovations Arizona, Kitchen Remodeling Scottsdale, Master Suite Renovation, Whole Home Remodel Scottsdale"
+                robots="index, follow"
                 canonical="https://stonebrook.homes/services/remodeling"
             />
 

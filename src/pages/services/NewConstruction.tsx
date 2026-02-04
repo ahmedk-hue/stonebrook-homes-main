@@ -46,7 +46,9 @@ const NewConstruction = () => {
         <>
             <SEO
                 title={pageTitle}
-                description="From Paradise Valley estates to Carefree retreats—we build legacy homes with aviation-level precision, transparent financials, and a focus on your lifestyle."
+                description="Arizona's premier custom home builders specializing in high-precision luxury construction in Scottsdale and Paradise Valley. Aviation-grade precision and honesty."
+                keywords="Custom Home Builders Scottsdale, Luxury Home Construction Arizona, Stonebrook Homes, New Home Construction Scottsdale, Paradise Valley Custom Builders"
+                robots="index, follow"
                 canonical="https://stonebrook.homes/services/new-construction"
             />
 

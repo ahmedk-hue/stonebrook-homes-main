@@ -44,6 +44,8 @@ const Commercial = () => {
             <SEO
                 title={pageTitle}
                 description="Arizona's choice for light commercial construction and tenant improvements. Precision-driven office and retail build-outs in Scottsdale and Paradise Valley."
+                keywords="Commercial Construction Scottsdale, Tenant Improvements Scottsdale, Office Build-out Arizona, Medical Suite Construction, Dental Office Builders Scottsdale"
+                robots="index, follow"
                 canonical="https://stonebrook.homes/services/commercial"
             />
 

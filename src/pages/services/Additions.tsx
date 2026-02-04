@@ -44,6 +44,8 @@ const Additions = () => {
             <SEO
                 title={pageTitle}
                 description="Expert luxury home additions, second-story pop-tops, and custom casitas in Scottsdale and Paradise Valley. Seamless design integration with aviation-grade precision."
+                keywords="Home Additions Scottsdale, Custom Casita Builders, Guest House Construction Arizona, ADU Builders Scottsdale, Luxury Home Extensions"
+                robots="index, follow"
                 canonical="https://stonebrook.homes/services/additions"
             />
 
