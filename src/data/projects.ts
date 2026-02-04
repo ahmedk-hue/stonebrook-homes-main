@@ -24,18 +24,18 @@ export interface ProjectData {
 
 export const projects: ProjectData[] = [
     {
-        slug: 'westlake-estate',
-        title: "The Westlake Estate",
+        slug: 'silverleaf-manor',
+        title: "Silverleaf Manor",
         category: "Custom Build",
-        location: "Loveland, CO",
-        description: "A modern interpretation of the classic lake house, designed to maximize views of Boyd Lake while providing privacy for the homeowners.",
-        challenge: "The narrow, sloping lot required a unique structural approach to support the open-concept main floor while adhering to strict height restrictions.",
-        solution: "We utilized a cantilevered steel frame foundation and a reverse-living floor plan, placing the primary living spaces on the second floor to capture the panoramic lake views.",
+        location: "Scottsdale, AZ",
+        description: "A desert-modern masterpiece in the prestigious Silverleaf community, blending organic materials with high-technology structural systems.",
+        challenge: "The steep hillside lot required complex vertical structural engineering and strict adherence to the community's design guidelines while maintaining 360-degree desert views.",
+        solution: "We implemented a tiered foundation system and custom steel roof structures that provide shade without obstructing sightlines. The home features extensive floor-to-ceiling glass systems with aviation-grade thermal breaks.",
         stats: {
-            sqFt: "4,200",
-            duration: "14 Months",
-            beds: "4",
-            baths: "4.5"
+            sqFt: "8,500",
+            duration: "22 Months",
+            beds: "6",
+            baths: "7.5"
         },
         mainImage: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?q=80&w=2071&auto=format&fit=crop",
         gallery: [
@@ -45,24 +45,24 @@ export const projects: ProjectData[] = [
         ],
         testimonial: {
             videoThumbnail: "https://images.unsplash.com/photo-1516156008625-3a9d60bdd72e?q=80&w=2070&auto=format&fit=crop",
-            videoUrl: "#", // Placeholder
-            quote: "Homestead didn't just build a house; they engineered a way for us to live on the lake in a way we never thought possible.",
-            author: "The Anderson Family"
+            videoUrl: "#",
+            quote: "Stonebrook didn't just build a home; they engineered a sanctuary. Their attention to precision and transparency is unmatched in the Scottsdale market.",
+            author: "The Thompson Family"
         }
     },
     {
-        slug: 'mountain-modern-retreat',
-        title: "Mountain Modern Retreat",
+        slug: 'paradise-valley-sanctuary',
+        title: "Paradise Valley Sanctuary",
         category: "Whole Home Remodel",
-        location: "Boulder, CO",
-        description: "Transforming a dated 1980s cabin into a sustainable, energy-efficient modern sanctuary nestled in the foothills.",
-        challenge: "The existing structure had poor insulation and a chopped-up layout that blocked natural light. Access to the site was also limited by steep terrain.",
-        solution: "We gutted the interior to the studs, installed high-performance windows and insulation to reach Net-Zero ready standards, and opened up the south-facing wall to flood the home with light.",
+        location: "Paradise Valley, AZ",
+        description: "Transforming a dated territory-style estate into a contemporary 'High-Desert' sanctuary with a focus on indoor-outdoor flow.",
+        challenge: "The original structure had low ceilings and small windows that trapped heat and blocked the Camelback Mountain views. The client wanted a net-zero capable luxury environment.",
+        solution: "We raised the roofline using lightweight structural steel to create vaulted ceilings and installed massive multi-slide glass walls. High-performance glazing and advanced insulation systems were integrated to minimize thermal gain.",
         stats: {
-            sqFt: "3,100",
-            duration: "9 Months",
-            beds: "3",
-            baths: "3"
+            sqFt: "5,400",
+            duration: "14 Months",
+            beds: "4",
+            baths: "5"
         },
         mainImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2070&auto=format&fit=crop",
         gallery: [
@@ -73,23 +73,23 @@ export const projects: ProjectData[] = [
         testimonial: {
             videoThumbnail: "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?q=80&w=2070&auto=format&fit=crop",
             videoUrl: "#",
-            quote: "We were worried about managing a renovation from out of state, but the weekly video updates made us feel like we were on site every day.",
-            author: "Sarah & Mark J."
+            quote: "Managing a project of this scale usually means surprises. With Stonebrook, the precision in their planning and constant communication made the process seamless.",
+            author: "Dr. & Mrs. Aris"
         }
     },
     {
-        slug: 'pearl-street-historic',
-        title: "Pearl Street Historic Reno",
-        category: "Restoration",
-        location: "Old Town Fort Collins",
-        description: "Preserving the charm of a 1920s bungalow while adding modern amenities and a discrete second-story addition.",
-        challenge: "Strict historic preservation guidelines meant the street-facing facade could not be altered. We needed to add 1,000 sq ft without changing the curb appeal.",
-        solution: "We designed a 'pop-top' addition set back from the front roofline, making it invisible from the street. We also restored original hardwood floors and millwork.",
+        slug: 'dc-ranch-modern',
+        title: "DC Ranch Modern",
+        category: "Light Commercial",
+        location: "Scottsdale, AZ",
+        description: "A boutique wellness center in DC Ranch that prioritizes natural light, acoustic privacy, and high-end architectural finishes.",
+        challenge: "Strict municipal zoning for commercial spaces within residential adjacency required significant sound mitigation and low-impact site lighting.",
+        solution: "We used specialized acoustic framing and triple-pane glazing to ensure patient privacy. The design utilizes deep overhangs and louvered screens to manage desert light while providing an inviting atmosphere.",
         stats: {
-            sqFt: "2,400",
+            sqFt: "4,200",
             duration: "11 Months",
-            beds: "4",
-            baths: "3"
+            beds: "N/A",
+            baths: "4"
         },
         mainImage: "https://images.unsplash.com/photo-1600607687644-c7171b42498f?q=80&w=2070&auto=format&fit=crop",
         gallery: [
@@ -100,8 +100,8 @@ export const projects: ProjectData[] = [
         testimonial: {
             videoThumbnail: "https://images.unsplash.com/photo-1595846519845-68e298c2edd8?q=80&w=2070&auto=format&fit=crop",
             videoUrl: "#",
-            quote: "Adding space to a historic home without ruining its character is an art form. Homestead truly are artists.",
-            author: "The Chen Family"
+            quote: "Stonebrook understood that our commercial build had to feel as premium as our custom residential surroundings. They delivered on every detail.",
+            author: "Nexus Wellness Group"
         }
     }
 ];

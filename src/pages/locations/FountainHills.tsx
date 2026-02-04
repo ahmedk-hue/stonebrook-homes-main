@@ -52,7 +52,7 @@ const FountainHills = () => {
                 url="https://stonebrook.homes/locations/fountain-hills"
                 telephone="(480) 818-0201"
                 address={{
-                    streetAddress: "7585 E Redfield RD Suit 211",
+                    streetAddress: "7585 E Redfield RD Suite 211",
                     addressLocality: "Fountain Hills",
                     addressRegion: "AZ",
                     postalCode: "85268",

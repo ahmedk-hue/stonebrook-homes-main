@@ -21,7 +21,7 @@ interface LocationSchemaProps {
     sameAs?: string[];
     areaServed?: {
         name: string;
-        wikidataId?: string; // e.g., "Q12345" for Loveland
+        wikidataId?: string; // e.g., "Q48517" for Scottsdale
     }[];
     priceRange?: string;
     hasMap?: string;
@@ -82,8 +82,8 @@ const LocationSchema = ({
         },
         "parentOrganization": {
             "@type": "Organization",
-            "name": "Homestead Home Builders",
-            "url": "https://homesteadhomebuilders.com"
+            "name": "Stonebrook Homes",
+            "url": "https://stonebrook.homes"
         }
     };
 

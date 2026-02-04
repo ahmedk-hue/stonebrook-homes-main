@@ -7,14 +7,14 @@ const Careers = () => {
     return (
         <>
             <SEO
-                title="Careers at Homestead | Join Our Team"
-                description="Build your legacy with Northern Colorado's premier custom home builder. We offer competitive pay, benefits, and a culture of craftsmanship."
-                canonical="https://homesteadhomebuilders.com/careers"
+                title="Careers at Stonebrook | Build with Precision"
+                description="Build your legacy with Scottsdale's premier luxury custom home builder. We offer competitive pay, benefits, and a culture of aviation-grade craftsmanship."
+                canonical="https://stonebrook.homes/careers"
             />
 
             <PageHeader
                 title="Build Your Legacy"
-                subtitle="Join a team that values craftsmanship, integrity, and safety above all else."
+                subtitle="Join a team that values precision, integrity, and safety above all else."
                 backgroundImage="https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=2089&auto=format&fit=crop"
                 breadcrumbs={[
                     { label: 'Home', path: '/' },
@@ -29,7 +29,7 @@ const Careers = () => {
                     <div className="text-center max-w-3xl mx-auto mb-16">
                         <h2 className="text-4xl font-serif font-bold text-primary mb-6">More Than Just A Job</h2>
                         <p className="text-slate-600 text-lg leading-relaxed">
-                            At Homestead, we don't just build houses; we build careers. We believe that if we take care of our people, they will take care of our clients. We are looking for dedicated craftsmen and professionals who take pride in their work.
+                            At Stonebrook, we don't just build homes; we build careers. We believe that if we take care of our people, they will take care of our clients. We are looking for dedicated craftsmen and professionals who take pride in precision and honesty.
                         </p>
                     </div>
 
@@ -37,18 +37,18 @@ const Careers = () => {
                         {[
                             {
                                 icon: HardHat,
-                                title: "Safety & Respect",
-                                desc: "We maintain rigorous safety standards. Every team member has the authority to stop work if they see a hazard."
+                                title: "Safety & Precision",
+                                desc: "We maintain rigorous safety standards derived from commercial aviation. Every team member operates with structural discipline."
                             },
                             {
                                 icon: Award,
-                                title: "Craftsmanship",
-                                desc: "We don't cut corners. We provide the time and resources needed to do the job right the first time."
+                                title: "Aviation-Grade",
+                                desc: "We don't cut corners. We provide the time and high-tech resources needed to do the job right the first time."
                             },
                             {
                                 icon: Heart,
-                                title: "Family Culture",
-                                desc: "We work hard, but we also respect your time with family. Weekend work is the exception, not the rule."
+                                title: "Stonebrook Culture",
+                                desc: "A friendly environment where we are all working for something we're passionate in. We respect your family time."
                             }
                         ].map((item, index) => (
                             <div key={index} className="bg-surface p-8 rounded-lg border border-slate-100 text-center hover:shadow-lg transition-shadow">
@@ -73,20 +73,20 @@ const Careers = () => {
                             {
                                 title: "Project Manager",
                                 type: "Full-Time",
-                                location: "Loveland / Northern Colorado",
-                                desc: "Lead high-end custom builds from permit to closeout. Requires 5+ years experience in residential construction management."
+                                location: "Scottsdale / Phoenix Valley",
+                                desc: "Lead luxury custom builds from permit to closeout. Requires 5+ years experience in high-end residential construction management."
                             },
                             {
                                 title: "Site Superintendent",
                                 type: "Full-Time",
-                                location: "Field Based",
-                                desc: "Daily on-site supervision of subcontractors, quality control, and schedule enforcement. proven track record of hitting milestones."
+                                location: "Scottsdale / Field Based",
+                                desc: "Daily on-site supervision of subcontractors, quality control, and schedule enforcement. Proven track record of hitting milestones."
                             },
                             {
-                                title: "Lead Carpenter",
+                                title: "Office Administrator",
                                 type: "Full-Time",
-                                location: "Field Based",
-                                desc: "Perform rough and finish carpentry, install blocking, window sets, and manage labor crews. Tool allowance provided."
+                                location: "Scottsdale HQ",
+                                desc: "Manage client communications, subcontractor coordination, and project documentation."
                             }
                         ].map((job, i) => (
                             <div key={i} className="bg-white/5 border border-white/10 rounded-lg p-8 hover:bg-white/10 transition-colors flex flex-col md:flex-row justify-between items-start md:items-center gap-6">

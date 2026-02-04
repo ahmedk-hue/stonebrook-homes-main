@@ -18,9 +18,9 @@ const __PAGE_COMPONENT__ = () => {
     return (
         <>
             <SEO
-                title="__POST_TITLE__ | Homestead Insights"
+                title="__POST_TITLE__ | Stonebrook Insights"
                 description="__POST_EXCERPT__"
-                canonical="https://homesteadhomebuilders.com/blog/__PAGE_NAME__"
+                canonical="https://stonebrook.homes/blog/__PAGE_NAME__"
             />
 
             <PageHeader

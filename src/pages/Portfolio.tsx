@@ -9,9 +9,9 @@ const Portfolio = () => {
     return (
         <>
             <SEO
-                title="Luxury Custom Home Portfolio | Homestead"
-                description="Explore our showcased projects and visual gallery. Deep dives into custom builds, renovations, and historic restorations in Northern Colorado."
-                canonical="https://homesteadhomebuilders.com/portfolio"
+                title="Luxury Custom Home Portfolio | Stonebrook Homes"
+                description="Explore our highlighted projects in Scottsdale and Paradise Valley. A showcase of luxury custom builds and modern desert estates."
+                canonical="https://stonebrook.homes/portfolio"
             />
 
             <PageHeader

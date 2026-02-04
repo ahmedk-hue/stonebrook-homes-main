@@ -4,15 +4,15 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 const testimonials = [
     {
-        text: "Homestead Home Builders didn't just build a house; they crafted our family's legacy. The attention to detail in the custom millwork and the seamless flow of the floor plan demonstrated their deep expertise. They navigated the complex county permitting process for us effortlessly.",
-        author: "The Anderson Family",
-        location: "Estes Park, CO",
+        text: "Stonebrook Homes didn't just build a house; they crafted our family's legacy. The attention to detail in the custom millwork and the seamless flow of the floor plan demonstrated their deep expertise. They navigated the complex municipal permitting process for us effortlessly.",
+        author: "The Thompson Family",
+        location: "Silverleaf",
         rating: 5
     },
     {
-        text: "We interviewed five different builders in Northern Colorado. Homestead was the only team that truly listened to our vision for a net-zero mountain modern home. The project was delivered on time and significantly under the budget of other quotes.",
-        author: "Dr. Sarah Chen",
-        location: "Boulder, CO",
+        text: "We interviewed five different builders in the Arizona Valley. Stonebrook was the only team that truly listened to our vision for a net-zero desert modern home. The project was delivered with incredible precision and transparency.",
+        author: "Sarah & Mark J.",
+        location: "Paradise Valley",
         rating: 5
     },
     {

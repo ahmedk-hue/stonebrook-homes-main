@@ -43,9 +43,9 @@ const Contact = () => {
     return (
         <>
             <SEO
-                title="Start Your Project | Homestead Home Builders"
-                description="Tell us about your dream home project. Our multi-step inquiry form helps us understand your vision before we talk."
-                canonical="https://homesteadhomebuilders.com/contact"
+                title="Start Your Project | Stonebrook Homes"
+                description="Ready to build your dream home in Scottsdale or Paradise Valley? Contact Stonebrook Homes today for a consultation."
+                canonical="https://stonebrook.homes/contact"
             />
 
             <PageHeader
@@ -178,7 +178,7 @@ const Contact = () => {
                                                         value={formData.projectAddress}
                                                         onChange={(e) => updateData('projectAddress', e.target.value)}
                                                         className="w-full p-4 border border-slate-300 rounded focus:border-accent focus:outline-none"
-                                                        placeholder="e.g. 123 Mountain View Dr, Loveland"
+                                                        placeholder="e.g. 123 Desert Sky Ct, Scottsdale"
                                                     />
                                                 </div>
                                             )}

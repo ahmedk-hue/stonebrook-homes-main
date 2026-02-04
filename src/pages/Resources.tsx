@@ -8,14 +8,14 @@ const Resources = () => {
     return (
         <>
             <SEO
-                title="Resources | Homestead Home Builders"
-                description="Explore our resources including our process, blog, career opportunities, and strategic partnerships."
-                canonical="https://homesteadhomebuilders.com/resources"
+                title="Resources | Stonebrook Homes"
+                description="Explore our resources including our boutique process, Arizona luxury blog, and strategic partnerships."
+                canonical="https://stonebrook.homes/resources"
             />
 
             <PageHeader
                 title="Resources"
-                subtitle="Everything you need to know about building with Homestead."
+                subtitle="Everything you need to know about building with Stonebrook."
                 backgroundImage="https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=2089&auto=format&fit=crop"
                 breadcrumbs={[
                     { label: 'Home', path: '/' },
@@ -58,7 +58,7 @@ const Resources = () => {
                             {
                                 icon: Users, // Or Briefcase
                                 title: "Careers",
-                                desc: "Join the Homestead team. View current openings.",
+                                desc: "Join the Stonebrook team. View current openings.",
                                 link: "/careers",
                                 linkText: "View Openings"
                             },

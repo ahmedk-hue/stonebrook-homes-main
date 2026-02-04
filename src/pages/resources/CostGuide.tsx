@@ -17,8 +17,9 @@ const CostGuide = () => {
     return (
         <>
             <Helmet>
-                <title>The Northern Colorado Cost to Build Report | 2025 Edition</title>
+                <title>The Scottsdale Luxury Cost to Build Report | 2026 Edition</title>
                 <meta name="robots" content="noindex" />
+                <link rel="canonical" href="https://stonebrook.homes/resources/cost-guide" />
             </Helmet>
 
             {/* Hero Section */}
@@ -29,10 +30,10 @@ const CostGuide = () => {
                     </span>
                     <h1 className="text-4xl md:text-6xl font-serif mb-6 leading-tight">
                         The True Cost to Build <br />
-                        <span className="text-stone-400 italic">in Northern Colorado</span>
+                        <span className="text-stone-400 italic">in Scottsdale & Paradise Valley</span>
                     </h1>
                     <p className="text-xl text-stone-300 max-w-2xl mx-auto">
-                        A comprehensive breakdown of construction costs, soft costs, and what you can expect to pay for your custom home project in today's market.
+                        A comprehensive breakdown of construction costs, soft costs, and what you can expect to pay for your luxury custom home in the Arizona market.
                     </p>
                 </div>
             </section>
@@ -44,11 +45,11 @@ const CostGuide = () => {
                         {/* Introduction */}
                         <div className="prose prose-stone max-w-none mb-16">
                             <p className="lead text-xl text-stone-800 font-medium">
-                                The question we get asked most often is, "How much does it cost to build a custom home?" It's a fair question, but one with a complicated answer.
+                                The question we get asked most often is, "How much does it cost to build a luxury custom home?" In the Arizona desert, the answer involves unique considerations for topography, heat, and premium materials.
                             </p>
                             <p>
-                                In 2024 and moving into 2025, we've seen material prices stabilize after years of volatility, but labor costs in Northern Colorado remains high due to demand.
-                                This guide separates "Hard Costs" (sticks and bricks) from "Soft Costs" (fees and services), giving you a clear picture of the total investment required.
+                                Moving into 2026, we've seen material prices stabilize after years of volatility, but labor costs in the Scottsdale market remains high due to the demand for elite craftsmanship.
+                                This guide separates "Hard Costs" (sticks and bricks) from "Soft Costs" (fees and services), giving you a clear picture of the total investment required for a Stonebrook home.
                             </p>
                         </div>
 
@@ -72,31 +73,31 @@ const CostGuide = () => {
                                     </thead>
                                     <tbody className="text-stone-600 align-top">
                                         <tr className="border-b border-stone-50">
-                                            <td className="py-6 pr-4 font-medium text-stone-900">Standard / Economy</td>
-                                            <td className="py-6 px-4 font-semibold text-stone-800">$250 - $325</td>
+                                            <td className="py-6 pr-4 font-medium text-stone-900">Premium / Modern</td>
+                                            <td className="py-6 px-4 font-semibold text-stone-800">$450 - $650</td>
                                             <td className="py-6 pl-4 text-sm">
-                                                Laminate or basic quartz counters, LVP flooring, modular cabinets, asphalt shingles, standard appliances.
+                                                High-quality natural stone, custom steel windows, premium desert landscaping, and high-efficiency cooling systems.
                                             </td>
                                         </tr>
                                         <tr className="border-b border-stone-50">
-                                            <td className="py-6 pr-4 font-medium text-stone-900">Mid-Range / Custom</td>
-                                            <td className="py-6 px-4 font-semibold text-stone-800">$325 - $450</td>
+                                            <td className="py-6 pr-4 font-medium text-stone-900">Ultra-Luxury / Estate</td>
+                                            <td className="py-6 px-4 font-semibold text-stone-800">$650 - $900</td>
                                             <td className="py-6 pl-4 text-sm">
-                                                Hardwood floors, custom cabinetry, quartz/granite, composite decking, metal roof accents, higher-end appliances.
+                                                Custom imported flooring, complete smart home integration, infinity pools, and complex cantilevers.
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td className="py-6 pr-4 font-medium text-stone-900">Luxury / High-End</td>
-                                            <td className="py-6 px-4 font-semibold text-stone-800">$450+</td>
+                                            <td className="py-6 pr-4 font-medium text-stone-900">Iconic / Masterpiece</td>
+                                            <td className="py-6 px-4 font-semibold text-stone-800">$1,000+</td>
                                             <td className="py-6 pl-4 text-sm">
-                                                Architectural steel, premium natural stone, smart home integration, Wolf/SubZero appliances, complex structural engineering.
+                                                Unique architectural silhouettes, museum-grade finishes, custom underground garages, and bespoke art installations.
                                             </td>
                                         </tr>
                                     </tbody>
                                 </table>
                             </div>
                             <div className="mt-4 p-4 bg-amber-50 rounded-lg border border-amber-100 text-sm text-amber-900">
-                                <strong>Note:</strong> These figures are for the <em>home only</em>. They generally do not include the cost of the land or heavy site work (wells, septic, long driveways).
+                                <strong>Note:</strong> These figures are for the <em>home only</em>. They generally do not include the cost of the land or heavy site work (desert grading, rock removal).
                             </div>
                         </div>
 
@@ -106,10 +107,10 @@ const CostGuide = () => {
                                 <div className="p-2 bg-stone-100 rounded-lg">
                                     <FileText className="w-6 h-6 text-stone-800" />
                                 </div>
-                                <h2 className="text-2xl font-serif text-stone-900 m-0">2. The "Hidden" Soft Costs</h2>
+                                <h2 className="text-2xl font-serif text-stone-900 m-0">2. The Arizona Soft Costs</h2>
                             </div>
                             <p className="text-stone-600 mb-6">
-                                Many homeowners focus only on construction costs, but soft costs can add 15-20% to your total project budget. Do not overlook these.
+                                The complexity of building in the Sonoran Desert often means higher soft costs for engineering and environmental compliance.
                             </p>
 
                             <div className="grid sm:grid-cols-2 gap-6">
@@ -119,32 +120,32 @@ const CostGuide = () => {
                                     </h3>
                                     <ul className="space-y-3">
                                         <li className="flex justify-between text-sm">
-                                            <span className="text-stone-600">Architectural Plans</span>
-                                            <span className="font-medium">$15k - $50k+</span>
+                                            <span className="text-stone-600">Architectural Design</span>
+                                            <span className="font-medium">$40k - $150k+</span>
                                         </li>
                                         <li className="flex justify-between text-sm">
-                                            <span className="text-stone-600">Structural Engineering</span>
-                                            <span className="font-medium">$3k - $8k</span>
+                                            <span className="text-stone-600">Structural & MEP Engineering</span>
+                                            <span className="font-medium">$12k - $30k</span>
                                         </li>
                                         <li className="flex justify-between text-sm">
-                                            <span className="text-stone-600">Soils Test & Survey</span>
-                                            <span className="font-medium">$2.5k - $4k</span>
+                                            <span className="text-stone-600">Geotechnical (Rock) Analysis</span>
+                                            <span className="font-medium">$5k - $12k</span>
                                         </li>
                                         <li className="flex justify-between text-sm">
-                                            <span className="text-stone-600">Building Permits (NoCo)</span>
-                                            <span className="font-medium">$15k - $40k</span>
+                                            <span className="text-stone-600">Permits & Impact Fees</span>
+                                            <span className="font-medium">$25k - $60k</span>
                                         </li>
                                         <li className="flex justify-between text-sm">
-                                            <span className="text-stone-600">Water/Sewer Tap Fees</span>
-                                            <span className="font-medium">$30k - $80k+</span>
+                                            <span className="text-stone-600">Water & Utility Connections</span>
+                                            <span className="font-medium">$20k - $50k</span>
                                         </li>
                                     </ul>
                                 </div>
                                 <div className="bg-stone-50 p-6 rounded-xl border border-stone-100 flex flex-col justify-center">
                                     <div className="text-center">
                                         <p className="text-stone-500 text-sm mb-2">Estimated Soft Costs Total</p>
-                                        <p className="text-3xl font-bold text-stone-900 mb-2">$65,000 - $150,000</p>
-                                        <p className="text-xs text-stone-400">Depending on municipality and tap fees (Water taps in Northern Colorado can be significant).</p>
+                                        <p className="text-3xl font-bold text-stone-900 mb-2">$100k - $300k+</p>
+                                        <p className="text-xs text-stone-400">Depending on municipality and site complexity (Scottsdale impact fees can be significant).</p>
                                     </div>
                                 </div>
                             </div>

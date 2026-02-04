@@ -22,8 +22,8 @@ const ProjectDetail = () => {
         <>
             <SEO
                 title={`${project.title} | Custom Home Portfolio`}
-                description={`Explore the ${project.title}, a ${project.category} in ${project.location} by Homestead Home Builders. ${project.description.substring(0, 120)}...`}
-                canonical={`https://homesteadhomebuilders.com/portfolio/${project.slug}`}
+                description={`Explore the ${project.title}, a ${project.category} in ${project.location} by Stonebrook Homes. ${project.description.substring(0, 120)}...`}
+                canonical={`https://stonebrook.homes/portfolio/${project.slug}`}
             />
 
             <PageHeader

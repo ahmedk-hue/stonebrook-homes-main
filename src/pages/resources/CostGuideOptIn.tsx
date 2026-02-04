@@ -39,76 +39,36 @@ const CostGuideOptIn = () => {
 
     return (
         <>
-            <Helmet>
-                <title>2025 Cost to Build Guide | Northern Colorado Custom Homes</title>
-                <meta name="description" content="Download our comprehensive guide to understanding custom home building costs in Fort Collins, Loveland, and Windsor. Real numbers, no guesswork." />
-            </Helmet>
+            <p className="text-stone-600 text-sm">Permits, engineering, and design fees that often catch homeowners off guard.</p>
+        </div >
+                                </div >
+    <div className="flex items-start gap-3">
+        <CheckCircle className="w-5 h-5 text-stone-800 mt-1 flex-shrink-0" />
+        <div>
+            <h3 className="font-medium text-stone-900">Sample Budgets</h3>
+            <p className="text-stone-600 text-sm">Real-world scenarios for 2,500 sq.ft and 4,000 sq.ft homes.</p>
+        </div>
+    </div>
+                            </div >
 
-            <div className="min-h-screen bg-stone-50">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-20">
-                    <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+    <div className="flex items-center gap-4 text-sm text-stone-500">
+        <div className="flex -space-x-2">
+            {/* Placeholder avatars */}
+            <div className="w-8 h-8 rounded-full bg-stone-300 border-2 border-white"></div>
+            <div className="w-8 h-8 rounded-full bg-stone-400 border-2 border-white"></div>
+            <div className="w-8 h-8 rounded-full bg-stone-500 border-2 border-white"></div>
+        </div>
+        <p>Downloaded by 500+ local homeowners</p>
+    </div>
+                        </motion.div >
 
-                        {/* Left Column: Copy */}
-                        <motion.div
-                            initial={{ opacity: 0, x: -20 }}
-                            animate={{ opacity: 1, x: 0 }}
-                            transition={{ duration: 0.6 }}
-                        >
-                            <div className="inline-flex items-center gap-2 px-3 py-1 bg-stone-900/5 rounded-full mb-6">
-                                <TrendingUp className="w-4 h-4 text-stone-600" />
-                                <span className="text-sm font-medium text-stone-600">Updated for Current Market Rates</span>
-                            </div>
-
-                            <h1 className="text-4xl lg:text-5xl font-serif text-stone-900 leading-tight mb-6">
-                                Stop Guessing. Know the <span className="italic text-stone-600">Real Cost</span> to Build in Northern Colorado.
-                            </h1>
-
-                            <p className="text-lg text-stone-600 mb-8 leading-relaxed">
-                                Budgeting for a custom home shouldn't be a mystery. We've compiled actual project data from the last 12 months to give you a transparent look at what it really takes to build today.
-                            </p>
-
-                            <div className="space-y-4 mb-12">
-                                <div className="flex items-start gap-3">
-                                    <CheckCircle className="w-5 h-5 text-stone-800 mt-1 flex-shrink-0" />
-                                    <div>
-                                        <h3 className="font-medium text-stone-900">Per Square Foot Breakdowns</h3>
-                                        <p className="text-stone-600 text-sm">Detailed ranges for Economy, Mid-Range, and Luxury finishes.</p>
-                                    </div>
-                                </div>
-                                <div className="flex items-start gap-3">
-                                    <CheckCircle className="w-5 h-5 text-stone-800 mt-1 flex-shrink-0" />
-                                    <div>
-                                        <h3 className="font-medium text-stone-900">Hidden Soft Costs Revealed</h3>
-                                        <p className="text-stone-600 text-sm">Permits, engineering, and design fees that often catch homeowners off guard.</p>
-                                    </div>
-                                </div>
-                                <div className="flex items-start gap-3">
-                                    <CheckCircle className="w-5 h-5 text-stone-800 mt-1 flex-shrink-0" />
-                                    <div>
-                                        <h3 className="font-medium text-stone-900">Sample Budgets</h3>
-                                        <p className="text-stone-600 text-sm">Real-world scenarios for 2,500 sq.ft and 4,000 sq.ft homes.</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="flex items-center gap-4 text-sm text-stone-500">
-                                <div className="flex -space-x-2">
-                                    {/* Placeholder avatars */}
-                                    <div className="w-8 h-8 rounded-full bg-stone-300 border-2 border-white"></div>
-                                    <div className="w-8 h-8 rounded-full bg-stone-400 border-2 border-white"></div>
-                                    <div className="w-8 h-8 rounded-full bg-stone-500 border-2 border-white"></div>
-                                </div>
-                                <p>Downloaded by 500+ local homeowners</p>
-                            </div>
-                        </motion.div>
-
-                        {/* Right Column: Opt-In Form */}
-                        <motion.div
-                            initial={{ opacity: 0, x: 20 }}
-                            animate={{ opacity: 1, x: 0 }}
-                            transition={{ duration: 0.6, delay: 0.2 }}
-                            className="bg-white p-8 rounded-2xl shadow-xl border border-stone-100"
-                        >
+    {/* Right Column: Opt-In Form */ }
+    < motion.div
+initial = {{ opacity: 0, x: 20 }}
+animate = {{ opacity: 1, x: 0 }}
+transition = {{ duration: 0.6, delay: 0.2 }}
+className = "bg-white p-8 rounded-2xl shadow-xl border border-stone-100"
+    >
                             <div className="text-center mb-8">
                                 <div className="inline-block p-3 bg-stone-100 rounded-full mb-4">
                                     <FileText className="w-8 h-8 text-stone-800" />
@@ -176,11 +136,11 @@ const CostGuideOptIn = () => {
                                     <span>Your information is secure. No spam, ever.</span>
                                 </div>
                             </form>
-                        </motion.div>
+                        </motion.div >
 
-                    </div>
-                </div>
-            </div>
+                    </div >
+                </div >
+            </div >
         </>
     );
 };

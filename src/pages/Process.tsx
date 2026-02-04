@@ -82,14 +82,14 @@ const Process = () => {
     return (
         <>
             <SEO
-                title="Our Custom Home Building Process | Homestead"
-                description="A transparent, step-by-step guide to building your custom home. From design to warranty, we handle every detail with care."
-                canonical="https://homesteadhomebuilders.com/process"
+                title="Our Custom Home Building Process | Stonebrook Homes"
+                description="Our proprietary Stonebrook Standard ensures a transparent, step-by-step journey to your Arizona luxury home. From lot selection to key handoff."
+                canonical="https://stonebrook.homes/process"
             />
 
             <PageHeader
-                title="How We Build"
-                subtitle="A human approach to construction. No jargon, no black boxes—just a clear path to your dream home."
+                title="The Stonebrook Standard"
+                subtitle="A high-transparency approach to luxury construction. Precision execution for your desert estate."
                 backgroundImage="https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=2831&auto=format&fit=crop"
                 breadcrumbs={[
                     { label: 'Home', path: '/' },

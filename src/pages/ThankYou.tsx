@@ -6,9 +6,9 @@ const ThankYou = () => {
     return (
         <>
             <SEO
-                title="Thank You | Homestead Home Builders"
-                description="We look forward to speaking with you about your custom home project."
-                canonical="https://homesteadhomebuilders.com/thank-you"
+                title="Thank You | Stonebrook Homes"
+                description="Your inquiry has been received. We look forward to discussing your Arizona luxury home project."
+                canonical="https://stonebrook.homes/thank-you"
             />
             {/* Simple centered layout */}
             <div className="min-h-screen bg-surface flex items-center justify-center p-6">

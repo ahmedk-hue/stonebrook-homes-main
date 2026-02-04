@@ -9,18 +9,18 @@ const Blog = () => {
     return (
         <>
             <SEO
-                title="Building Insights & Resources | Homestead Home Builders"
-                description="Expert guides on custom home building costs, local zoning in Loveland & Fort Collins, and design trends for Northern Colorado."
-                canonical="https://homesteadhomebuilders.com/blog"
+                title="Building Insights & Resources | Stonebrook Homes"
+                description="Expert guides on luxury custom home building costs, Scottsdale zoning, and high-precision design trends for the Arizona Valley."
+                canonical="https://stonebrook.homes/blog"
             />
 
             <PageHeader
-                title="Resources & Insights"
-                subtitle="Expert advice on land, design, and construction in Northern Colorado."
-                backgroundImage="https://images.unsplash.com/photo-1517646133311-665e81cbc699?q=80&w=2070&auto=format&fit=crop"
+                title="The Build Journal"
+                subtitle="High-precision insights into the Scottsdale custom home market."
+                backgroundImage="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop"
                 breadcrumbs={[
                     { label: 'Home', path: '/' },
-                    { label: 'Resources', path: '/blog' } // Breadcrumb effectively acts as 'Blog'
+                    { label: 'Blog', path: '/blog' }
                 ]}
             />
 

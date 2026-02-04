@@ -7,9 +7,9 @@ const PrivacyPolicy = () => {
     return (
         <>
             <SEO
-                title="Privacy Policy | Homestead Home Builders"
-                description="Our commitment to protecting your personal information. Read our privacy policy to understand how we collect, use, and safeguard your data."
-                canonical="https://homesteadhomebuilders.com/privacy-policy"
+                title="Privacy Policy | Stonebrook Homes"
+                description="Our commitment to your privacy and the protection of your personal information."
+                canonical="https://stonebrook.homes/privacy-policy"
             />
 
             <PageHeader

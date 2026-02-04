@@ -19,24 +19,18 @@ const Sitemap = () => {
         { name: 'Services Overview', path: '/services' },
         { name: 'New Custom Homes', path: '/services/new-construction' },
         { name: 'Whole Home Remodeling', path: '/services/remodeling' },
-        { name: 'Basement Finishing', path: '/services/basement-finishing' },
+        { name: 'Light Commercial', path: '/services/commercial' },
         { name: 'Home Additions', path: '/services/additions' },
-        { name: 'ADUs & Guest Houses', path: '/services/adu' },
     ];
 
     const locations = [
         { name: 'Locations Overview', path: '/locations' },
-        { name: 'Loveland', path: '/locations/loveland' },
-        { name: 'Fort Collins', path: '/locations/fort-collins' },
-        { name: 'Windsor', path: '/locations/windsor' },
-        { name: 'Boulder', path: '/locations/boulder' },
-        { name: 'Greeley', path: '/locations/greeley' },
-        { name: 'Longmont', path: '/locations/longmont' },
-        { name: 'Timnath', path: '/locations/timnath' },
-        { name: 'Wellington', path: '/locations/wellington' },
-        { name: 'Berthoud', path: '/locations/berthoud' },
-        { name: 'Mead', path: '/locations/mead' },
-        { name: 'Erie', path: '/locations/erie' },
+        { name: 'Scottsdale', path: '/locations/scottsdale' },
+        { name: 'Paradise Valley', path: '/locations/paradise-valley' },
+        { name: 'Fountain Hills', path: '/locations/fountain-hills' },
+        { name: 'Carefree', path: '/locations/carefree' },
+        { name: 'Cave Creek', path: '/locations/cave-creek' },
+        { name: 'Phoenix', path: '/locations/phoenix' },
     ];
 
     const resources = [
@@ -68,14 +62,14 @@ const Sitemap = () => {
     return (
         <>
             <SEO
-                title="Sitemap | Homestead Home Builders"
-                description="Easily navigate the Homestead Home Builders website. Find pages for services, portfolio, blog, and service areas."
-                canonical="https://homesteadhomebuilders.com/sitemap"
+                title="Sitemap | Stonebrook Homes"
+                description="Easily navigate the Stonebrook Homes website. Find pages for luxury custom builds, renovations, and Scottsdale service areas."
+                canonical="https://stonebrook.homes/sitemap"
             />
 
             <PageHeader
                 title="Sitemap"
-                subtitle="Complete overview of our website content."
+                subtitle="Complete overview of our precision-driven website."
                 backgroundImage="https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=2089&auto=format&fit=crop"
                 breadcrumbs={[
                     { label: 'Home', path: '/' },

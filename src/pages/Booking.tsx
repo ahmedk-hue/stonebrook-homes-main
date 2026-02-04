@@ -14,9 +14,9 @@ const Booking = () => {
     return (
         <>
             <SEO
-                title="Schedule Consultation | Homestead Home Builders"
-                description="Book your initial project discovery call with our team."
-                canonical="https://homesteadhomebuilders.com/booking"
+                title="Schedule Consultation | Stonebrook Homes"
+                description="Book a consultation with our Arizona luxury home building experts to discuss your custom project in Scottsdale or Paradise Valley."
+                canonical="https://stonebrook.homes/booking"
             />
 
             <PageHeader

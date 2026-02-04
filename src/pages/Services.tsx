@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import PageHeader from '../components/PageHeader';
 
+import { SITE_CONFIG } from '../config/site';
+
 const Services = () => {
     return (
         <>
@@ -28,30 +30,30 @@ const Services = () => {
                         {[
                             {
                                 icon: HomeIcon,
-                                title: "New Custom Homes",
+                                title: SITE_CONFIG.services[0].name,
                                 desc: "Turn your land into a masterpiece. We bring aviation-level engineering to every build, navigating complex Scottsdale zoning with absolute transparency and fixed-bid contracts.",
-                                link: "/services/new-construction",
+                                link: SITE_CONFIG.services[0].path,
                                 features: ["Luxury Build-on-Your-Lot", "In-House Architectural Team", "Energy-Efficient Modernism"]
                             },
                             {
                                 icon: Hammer,
-                                title: "Whole Home Remodeling",
+                                title: SITE_CONFIG.services[1].name,
                                 desc: "Love your estate but need a modernization? We specialize in large-scale luxury renovations that re-engineer layouts and upgrade finishes while maintaining the home's original soul.",
-                                link: "/services/remodeling",
+                                link: SITE_CONFIG.services[1].path,
                                 features: ["Structural Reconfiguration", "Premium Kitchens & Suites", "Clean-Site Protocols"]
                             },
                             {
                                 icon: Building2,
-                                title: "Commercial Build-Outs",
+                                title: SITE_CONFIG.services[3].name,
                                 desc: "Precision-driven tenant improvements for medical, dental, and executive suites. We manage accelerated schedules to minimize business downtime and ensure strict commercial code compliance.",
-                                link: "/services/commercial",
+                                link: SITE_CONFIG.services[3].path,
                                 features: ["Tenant Improvement (TI)", "Medical & Executive Suites", "ADA & Code Compliance"]
                             },
                             {
                                 icon: Ruler,
-                                title: "Additions & Casitas",
+                                title: SITE_CONFIG.services[2].name,
                                 desc: "Expand your footprint with seamless architectural integration. From second-story pop-tops to detached guest houses (Casitas), we maximize your property's potential and value.",
-                                link: "/services/additions",
+                                link: SITE_CONFIG.services[2].path,
                                 features: ["Seamless Aesthetic Match", "Custom Backyard Casitas", "Zoning & Setback Analysis"]
                             }
                         ].map((service, index) => (

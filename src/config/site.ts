@@ -9,7 +9,7 @@ export const SITE_CONFIG = {
         phoneHref: "tel:4808180201",
         email: "stonebrookconstruction@outlook.com",
         address: {
-            street: "7585 E Redfield RD Suit 211",
+            street: "7585 E Redfield RD Suite 211",
             city: "Scottsdale",
             state: "AZ",
             zip: "85260",

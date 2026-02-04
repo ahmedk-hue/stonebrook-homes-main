@@ -41,16 +41,16 @@ const __PAGE_COMPONENT__ = () => {
     return (
         <>
             <LocationSchema
-                name="Homestead Home Builders - __CITY_NAME__"
+                name="Stonebrook Homes - __CITY_NAME__"
                 description="__PAGE_DESC__"
                 image="__HERO_IMAGE__"
                 url="__CANONICAL_URL__"
                 telephone="__TELEPHONE__"
                 address={{
-                    streetAddress: "__ADDRESS_STREET__", // Needs to be replaced or defaulted
+                    streetAddress: "__ADDRESS_STREET__",
                     addressLocality: "__CITY_NAME__",
-                    addressRegion: "CO",
-                    postalCode: "__ZIP_CODE__", // Needs to be replaced
+                    addressRegion: "AZ",
+                    postalCode: "__ZIP_CODE__",
                     addressCountry: "US"
                 }}
                 geo={{

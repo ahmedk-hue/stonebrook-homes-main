@@ -27,182 +27,182 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
     {
-        slug: "cost-to-build-custom-home-loveland-2025",
-        title: "Cost to Build a Custom Home in Loveland, CO (2025 Guide)",
-        description: "A transparent breakdown of hard costs, soft costs, and permit fees for building in Loveland. Updated for 2025 market rates.",
+        slug: "cost-to-build-custom-home-scottsdale-2026",
+        title: "Cost to Build a Custom Home in Scottsdale, AZ (2026 Guide)",
+        description: "A high-precision breakdown of hard costs, soft costs, and Scottsdale permit fees for building in the Arizona Valley. Updated for 2026 market rates.",
         category: "Cost Guide",
-        author: "Michael Homestead",
-        authorRole: "Founder & Lead Contractor",
-        date: "December 15, 2024",
-        readTime: "8 min read",
-        image: "https://images.unsplash.com/photo-1554995207-c18c203602cb?q=80&w=2070&auto=format&fit=crop", // Construction site / blueprints
-        youtubeVideoId: "dQw4w9WgXcQ", // Placeholder ID
+        author: "Michael Leighton",
+        authorRole: "Founder & CEO",
+        date: "January 15, 2025",
+        readTime: "10 min read",
+        image: "https://images.unsplash.com/photo-1554995207-c18c203602cb?q=80&w=2070&auto=format&fit=crop",
+        youtubeVideoId: "dQw4w9WgXcQ",
         toc: [
             { id: "answer-box", label: "Quick Summary" },
-            { id: "average-costs", label: "Average Cost Per Square Foot" },
+            { id: "average-costs", label: "Scottsdale Cost Per Square Foot" },
             { id: "hard-vs-soft", label: "Hard Costs vs. Soft Costs" },
-            { id: "permit-fees", label: "Loveland Permit & Tap Fees" },
-            { id: "land-costs", label: "Land & Site Prep" },
+            { id: "permit-fees", label: "Scottsdale & Paradise Valley Fees" },
+            { id: "land-costs", label: "Desert Site Prep" },
             { id: "bottom-line", label: "The Bottom Line" }
         ],
         answerBox: {
-            title: "Quick Answer: Loveland Custom Home Costs",
-            content: "In 2025, the average cost to build a custom home in Loveland, CO ranges from **$300 to $450+ per square foot**. For a 3,000 sq. ft. home, expect a total budget between **$900,000 and $1.35M** (excluding land). Key drivers include tap fees (City vs. FCLWD), expansive soil engineering, and finish levels."
+            title: "Quick Answer: Scottsdale Custom Home Costs",
+            content: "In 2026, the average cost to build a luxury custom home in Scottsdale, AZ ranges from **$450 to $800+ per square foot**. For a 5,000 sq. ft. estate, expect a total budget between **$2.25M and $4M+** (excluding land). Key drivers include Hillside Ordinance compliance, desert soil engineering, and high-performance climate systems."
         },
         content: [
             {
                 type: "p",
-                text: "Building a custom home is likely the largest financial investment of your life. Yet, most builders in **Northern Colorado** obscure the real numbers until you've already signed a contract. At Homestead, we believe in radical transparency."
+                text: "Building a luxury home in the Arizona Valley is a complex engineering feat. While other builders may offer vague estimates, at Stonebrook, we apply aviation-grade precision to our budgeting. Transparency is our foundation."
             },
             {
                 type: "p",
-                text: "Whether you're looking at a lakefront lot in **Boyd Lake** or acreage near **Carter Lake**, this guide breaks down exactly where your money goes when building in Loveland. We've updated these figures for the **2025 construction market** to give you a realistic baseline."
+                text: "Whether you're looking at a hillside lot in **Silverleaf** or a flat estate in **Paradise Valley**, this guide breaks down exactly where your investment goes. We've updated these figures for the **2026 construction market** to reflect current labor and materials costs."
             },
             {
                 type: "h2",
                 id: "average-costs",
-                text: "Average Cost Per Square Foot in 2025"
+                text: "Scottsdale Cost Per Square Foot in 2026"
             },
             {
                 type: "p",
-                text: "While 'price per square foot' is a flawed metric due to massive variables in finish quality (marble vs. laminate), it serves as a useful starting point for initial feasibility studies."
+                text: "In the Scottsdale market, 'price per square foot' varies dramatically based on terrain and finish level. Desert building requires specific structural and thermal solutions that differ from standard residential builds."
             },
             {
                 type: "ul",
                 items: [
-                    "**Entry-Level Custom ($280 - $325/sq.ft.)**: This typically includes standard finishes, asphalt shingle roofing, carpet or LVP flooring, and simple rooflines. These are often semi-custom plans adapted for your lot.",
-                    "**Mid-Range Custom ($325 - $400/sq.ft.)**: Expect site-finished hardwood floors, quartz countertops, clad wood windows, stone masonry accents, and a finished 3-car garage.",
-                    "**Luxury Custom ($400 - $550+/sq.ft.)**: The sky is the limit. Think structural steel elements, floor-to-ceiling glass walls, radiant in-floor heating, smart home integration, and premium landscaping packages."
+                    "**Premium Custom ($450 - $550/sq.ft.)**: High-quality finishes, standard desert foundation, energy-efficient HVAC, and quality masonry.",
+                    "**Luxury Estate ($550 - $750/sq.ft.)**: Custom steel elements, massive glass walls, advanced smart home automation, and complex rooflines.",
+                    "**Ultra-Luxury Hillside ($800+/sq.ft.)**: Complex vertical engineering, 'floating' structures, high-performance thermal breaks, and extreme-grade finishes."
                 ]
             },
             {
                 type: "h2",
                 id: "hard-vs-soft",
-                text: "Hard Costs vs. Soft Costs: The Hidden 20%"
+                text: "Hard Costs vs. Soft Costs: The Hidden 25%"
             },
             {
                 type: "p",
-                text: "Many homeowners focus solely on the lumber and labor (Hard Costs) and forget the 'Soft Costs'—the professional fees required before a shovel hits the ground. In Loveland, soft costs can equate to **15-20% of your total project budget**."
+                text: "In Arizona, soft costs—the professional fees before construction starts—can be higher than in other markets due to environmental assessments and complex engineering requirements. Budget at least **20-25% of your total budget** for these."
             },
             {
                 type: "h3",
-                text: "Common Soft Costs to Budget For:"
+                text: "Common Scottsdale Soft Costs:"
             },
             {
                 type: "ul",
                 items: [
-                    "**Architecture & Engineering**: $25,000 - $60,000+ (Crucial for complex soils)",
-                    "**Soils Report (Geotechnical)**: $2,500 - $4,000",
-                    "**Survey & Site Plan**: $3,000 - $5,000",
-                    "**Interior Design Fees**: $150/hr or fixed flat fee packages"
+                    "**Architecture & Engineering**: $50,000 - $150,000+ (Required for Hillside Ordinance)",
+                    "**Environmental & Geological Surveys**: $5,000 - $12,000",
+                    "**Native Plant Salvage & Survey**: $3,000 - $7,000",
+                    "**Interior Architecture & Design**: $150 - $250/hr"
                 ]
             },
             {
                 type: "h2",
                 id: "permit-fees",
-                text: "Navigating Loveland Permit & Tap Fees"
+                text: "Navigating Scottsdale & Paradise Valley Fees"
             },
             {
                 type: "p",
-                text: "One of the biggest financial surprises for new builders in Loveland is the cost of water. Depending on your specific lot location, you will either pay **City of Loveland Utilities** or **Fort Collins-Loveland Water District (FCLWD)** fees."
+                text: "Municipal fees in Scottsdale and Paradise Valley are tiered based on project complexity and valuation. Additionally, development impact fees and water dedication costs must be factored in early in the due diligence process."
             },
             {
                 type: "callout",
-                text: "Pro Tip: FCLWD tap fees have risen significantly in recent years due to water scarcity infrastructure projects. Always verify the current raw water dedication requirements before closing on a lot."
+                text: "Pro Tip: Scottsdale's 'Design Review' process is rigorous. Ensure your timeline accounts for multiple review cycles if building in protected areas or historic districts."
             },
             {
                 type: "image",
                 src: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=2070&auto=format&fit=crop",
-                alt: "Construction foundation pouring in Loveland"
+                alt: "Concrete foundation pouring in Scottsdale"
             },
             {
                 type: "h2",
                 id: "land-costs",
-                text: "Land & Site Preparation"
+                text: "Desert Site Preparation & Terrain"
             },
             {
                 type: "p",
-                text: "Loveland's geology varies wildly. You might encounter rocky foothills out west (requiring expensive **rock excavation**) or clay-heavy plains in the east (requiring **over-excavation** and structural floors)."
+                text: "The Arizona desert presents unique site challenges. You'll deal with **caliche** (hard-pan soil that may require blasting) or steep hillsides that require massive retaining structures."
             },
             {
                 type: "p",
-                text: "Site costs are **never** included in the base square footage price and can range from $50,000 to $150,000+ depending on the lot's slope and soil complexity. Always perform a soil test during your due diligence period."
+                text: "Site costs are highly lot-specific and can range from $100,000 to $400,000+ for complex hillside builds. Never skip a comprehensive soils and topographical report before purchasing a desert lot."
             }
         ],
         relatedServices: ["new-construction", "remodeling"]
     },
     {
-        slug: "building-in-old-town-fort-collins-guide",
-        title: "The Insider's Guide to Building & Renovating in Old Town Fort Collins",
-        description: "Navigating historic preservation reviews, alley houses, and modernizing 100-year-old foundations in Fort Collins' most coveted neighborhood.",
+        slug: "paradise-valley-architectural-standards-guide",
+        title: "Building to the Standards of Paradise Valley & North Scottsdale",
+        description: "Navigating the unique architectural requirements, Hillside Ordinances, and high-performance design standards in Arizona's most exclusive enclaves.",
         category: "Neighborhood Spotlight",
-        author: "Sarah Jenkins",
-        authorRole: "Senior Architect",
-        date: "November 28, 2024",
-        readTime: "6 min read",
-        image: "https://images.unsplash.com/photo-1513584685908-42c9e12d4490?q=80&w=2070&auto=format&fit=crop", // Historic brick house
-        youtubeVideoId: "dQw4w9WgXcQ", // Placeholder
+        author: "Justin Sexton",
+        authorRole: "Co-Founder & COO",
+        date: "February 1, 2025",
+        readTime: "8 min read",
+        image: "https://images.unsplash.com/photo-1513584685908-42c9e12d4490?q=80&w=2070&auto=format&fit=crop",
+        youtubeVideoId: "dQw4w9WgXcQ",
         toc: [
             { id: "answer-box", label: "Quick Summary" },
-            { id: "historic-review", label: "Historic Preservation Review" },
-            { id: "structural-challenges", label: "Common Structural Issues" },
-            { id: "adues", label: "ADUs & Alley Houses" },
-            { id: "design-philosophy", label: "Modernizing While Preserving" }
+            { id: "hillside-ordinance", label: "The Scottsdale Hillside Ordinance" },
+            { id: "thermal-efficiency", label: "High-Performance Desert Design" },
+            { id: "landscape-integration", label: "Native Landscaping Requirements" },
+            { id: "design-philosophy", label: "The Stonebrook Standard" }
         ],
         answerBox: {
-            title: "Quick Answer: Old Town Regulations",
-            content: "Renovating in Old Town Fort Collins requires navigating the **Landmark Preservation Commission (LPC)**. Changes to street-facing facades are strictly regulated. However, rear additions and 'pop-tops' are often permitted if they are set back to minimize visual impact. Expect a **3-6 month approval timeline** for major alterations."
+            title: "Quick Answer: High-Desert Regulations",
+            content: "Building in Paradise Valley or North Scottsdale involves strict **Design Review Boards (DRB)**. The focus is on low-profile structures, light-reflective value (LRV) limits on paint, and preservation of the natural desert floor. Expect a **6-9 month planning and approval phase** for new custom estates."
         },
         content: [
             {
                 type: "p",
-                text: "Old Town Fort Collins is widely considered the crown jewel of Northern Colorado living. The wide, tree-lined streets and walkability to **Old Town Square** restaurants make it highly desirable. However, the housing stock—mostly built between 1900 and 1940—presents unique challenges for modern living."
+                text: "Paradise Valley and North Scottsdale are world-renowned for their architectural beauty. The commitment to preserving the natural landscape while allowing for world-class luxury creates a unique set of challenges for the builder. At Stonebrook, we specialize in navigating these exact complexities."
             },
             {
                 type: "h2",
-                id: "historic-review",
-                text: "Navigating the Landmark Preservation Commission"
+                id: "hillside-ordinance",
+                text: "Navigating the Scottsdale Hillside Ordinance"
             },
             {
                 type: "p",
-                text: "If your home is over 50 years old, it likely falls under some level of historic review. The City's primary goal is to maintain the 'historic fabric' and streetscape of the neighborhood."
+                text: "If your lot has more than a 10% slope, you fall under the Hillside Ordinance. This governs how much of the natural ground you can disturb and how high your structure can rise relative to the natural grade."
             },
             {
                 type: "ul",
                 items: [
-                    "**Street Facade**: This is almost always protected. Changing original windows, removing porches, or altering the roofline requires detailed review and often public hearings.",
-                    "**Siding Materials**: Original wood siding must often be repaired rather than replaced with modern vinyl or fiber cement, unless the deterioration is total.",
-                    "**Additions**: Any new square footage must be 'subordinate' to the original structure. This usually means stepping back second-story additions or building strictly to the rear."
+                    "**Building Height**: Limited to 24-30 feet depending on specific zoning, often measured from natural grade rather than finished grade.",
+                    "**Color & Material**: LRV limits ensure homes blend with the desert rather than reflecting light. Bright whites and polished metals are generally restricted.",
+                    "**Disturbance Limits**: Areas outside the 'building envelope' must remain in their natural state or be restored with native plant material."
                 ]
             },
             {
                 type: "h2",
-                id: "structural-challenges",
-                text: "The 'Old Town Foundation' Problem"
+                id: "thermal-efficiency",
+                text: "Next-Generation Thermal Efficiency"
             },
             {
                 type: "p",
-                text: "Many Old Town homes were built on **sandstone** or unreinforced concrete foundations. Over 100 years, these porous materials often crumble, settle, or allow significant moisture intrusion."
+                text: "Building in 110-degree heat requires more than just big AC units. It requires a holistic building envelope. We utilize specialized insulation, thermal-break window systems, and advanced air sealing to ensure your home remains a sanctuary year-round."
             },
             {
                 type: "callout",
-                text: "Warning: Before falling in love with a fixer-upper, get a structural engineer to inspect the basement. Underpinning a failing foundation can cost $30k - $50k+."
+                text: "Strategic Insight: Solar integration is most effective when paired with passive cooling strategies—like deep overhangs and cross-ventilation—reducing the active cooling load by up to 40%."
             },
             {
                 type: "h2",
-                id: "adues",
-                text: "The Rise of the Alley House (ADU)"
+                id: "landscape-integration",
+                text: "Preserving the Native Desert Floor"
             },
             {
                 type: "p",
-                text: "Fort Collins has some of the most progressive codes in the state regarding **Accessory Dwelling Units (ADUs)**. Old Town's unique alley network makes it perfect for carriage houses. These can provide essential rental income or space for aging parents."
+                text: "The local municipalities require the salvage and re-planting of protected native plants, including Saguaro cacti and Ocotillo. This isn't just a regulation; it's what gives our projects their 'rooted' desert feel from day one."
             },
             {
                 type: "image",
                 src: "https://images.unsplash.com/photo-1595846519845-68e298c2edd8?q=80&w=2070&auto=format&fit=crop",
-                alt: "Modern carriage house ADU in Fort Collins"
+                alt: "Native desert landscaping in Paradise Valley"
             }
         ],
-        relatedServices: ["remodeling", "additions", "new-construction"]
+        relatedServices: ["new-construction", "additions", "remodeling"]
     }
 ];

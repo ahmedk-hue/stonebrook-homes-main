@@ -11,7 +11,7 @@ const ServiceSchema = ({ serviceName, description, areaServed, image }: ServiceS
     const schema = {
         "@context": "https://schema.org",
         "@type": "HomeAndConstructionBusiness",
-        "name": "Homestead Home Builders",
+        "name": "Stonebrook Homes",
         "image": image,
         "description": description,
         "areaServed": areaServed.map(city => ({

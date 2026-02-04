@@ -30,10 +30,10 @@ const ProcessSection = () => {
         <section className="py-32 bg-surface">
             <div className="container mx-auto px-6">
                 <div className="text-center mb-20">
-                    <span className="text-accent font-bold tracking-widest uppercase text-sm">The Homestead Way</span>
+                    <span className="text-accent font-bold tracking-widest uppercase text-sm">The Stonebrook Standard</span>
                     <h2 className="text-4xl md:text-5xl font-serif font-bold text-primary mt-4 mb-6">A Seamless Path to Your Dream Home</h2>
                     <p className="text-slate-600 max-w-2xl mx-auto text-lg mb-10">
-                        Building a custom home shouldn't be stressful. We've refined our process over 30 years to ensure transparency, precision, and joy at every stage.
+                        Building a custom luxury home shouldn't be stressful. We've refined our process over decades to ensure transparency, precision, and joy at every stage.
                     </p>
                     <Link to="/process" className="inline-flex items-center px-8 py-4 bg-primary text-white font-bold uppercase tracking-widest hover:bg-secondary transition-colors rounded-sm shadow-lg">
                         View Detailed Process <ArrowRight className="ml-2 w-5 h-5" />

@@ -57,7 +57,7 @@ const Scottsdale = () => {
                 url="https://stonebrook.homes/locations/scottsdale"
                 telephone="(480) 818-0201"
                 address={{
-                    streetAddress: "7585 E Redfield RD Suit 211",
+                    streetAddress: "7585 E Redfield RD Suite 211",
                     addressLocality: "Scottsdale",
                     addressRegion: "AZ",
                     postalCode: "85260",

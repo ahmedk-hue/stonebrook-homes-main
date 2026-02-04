@@ -19,7 +19,7 @@ const BlogPost = () => {
             <SEO
                 title={post.title}
                 description={post.description}
-                canonical={`https://homesteadhomebuilders.com/blog/${post.slug}`}
+                canonical={`https://stonebrook.homes/blog/${post.slug}`}
                 image={post.image}
             />
             <BlogSchema
@@ -28,7 +28,7 @@ const BlogPost = () => {
                 datePublished={post.date}
                 authorName={post.author}
                 image={post.image}
-                url={`https://homesteadhomebuilders.com/blog/${post.slug}`}
+                url={`https://stonebrook.homes/blog/${post.slug}`}
             />
 
             <article className="min-h-screen bg-white">
@@ -153,7 +153,7 @@ const BlogPost = () => {
                                 <div className="bg-primary text-white p-8 rounded-lg shadow-xl sticky top-[450px]">
                                     <h3 className="text-2xl font-serif font-bold mb-4">Need an expert opinion?</h3>
                                     <p className="text-slate-300 mb-6 text-sm leading-relaxed">
-                                        Our Feasibility Studies provide a clear "Go/No-Go" on any lot in Northern Colorado before you buy.
+                                        Our Feasibility Studies provide a clear \"Go/No-Go\" on any lot in the Arizona Valley before you buy.
                                     </p>
                                     <ul className="space-y-3 mb-8 text-sm">
                                         <li className="flex items-center gap-2">

@@ -7,14 +7,14 @@ const Partners = () => {
     return (
         <>
             <SEO
-                title="Strategic Partners | Realtors, Architects & Trades"
-                description="Homestead Home Builders partners with top realtors, architects, and subcontractors in Northern Colorado to deliver exceptional custom homes."
-                canonical="https://homesteadhomebuilders.com/partners"
+                title="Strategic Partners | Stonebrook Homes"
+                description="Stonebrook Homes partners with the elite realtors, architects, and trades in Scottsdale and Paradise Valley to build the Arizona Valley's finest luxury homes."
+                canonical="https://stonebrook.homes/partners"
             />
 
             <PageHeader
                 title="Strategic Partnerships"
-                subtitle="Building value together through trust, transparency, and execution."
+                subtitle="Building Arizona's finest estates through trust, transparency, and execution."
                 backgroundImage="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=2070&auto=format&fit=crop"
                 breadcrumbs={[
                     { label: 'Home', path: '/' },
@@ -28,7 +28,7 @@ const Partners = () => {
                 <div className="container mx-auto px-6 max-w-4xl text-center">
                     <h2 className="text-4xl font-serif font-bold text-primary mb-6">Relationships Built on Respect</h2>
                     <p className="text-slate-600 text-lg leading-relaxed mb-12">
-                        We believe that the best projects are born from collaboration. Whether you are a realtor protecting your client's interests, an architect protecting your design integrity, or a trade partner seeking reliable workflow, we are built to support you.
+                        At Stonebrook Homes, we believe that the best projects are born from collaboration. Whether you are a realtor protecting your client's interests, an architect protecting your design integrity, or a trade partner seeking reliable workflow, we are built to support you.
                     </p>
                 </div>
             </section>
@@ -46,7 +46,7 @@ const Partners = () => {
                             </div>
                             <h2 className="text-3xl md:text-5xl font-serif font-bold text-primary mb-6">Protecting Your Commission & Client Relationships</h2>
                             <p className="text-slate-600 mb-8 leading-relaxed">
-                                We know the horror stories: a builder cuts the agent out of the deal or fails to communicate, making you look bad. At Homestead, we view agents as essential partners. We offer a simple, transparent commission agreement and keep you in the loop from lot selection to key handoff.
+                                We know the stakes in the Arizona luxury market: a builder must be a partner, not a bottleneck. At Stonebrook, we view agents as essential partners. We offer a simple, transparent commission agreement and keep you in the loop from lot selection in Silverleaf to key handoff in Paradise Valley.
                             </p>
                             <ul className="space-y-4 mb-10">
                                 {[

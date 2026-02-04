@@ -52,7 +52,7 @@ const CaveCreek = () => {
                 url="https://stonebrook.homes/locations/cave-creek"
                 telephone="(480) 818-0201"
                 address={{
-                    streetAddress: "7585 E Redfield RD Suit 211",
+                    streetAddress: "7585 E Redfield RD Suite 211",
                     addressLocality: "Cave Creek",
                     addressRegion: "AZ",
                     postalCode: "85331",

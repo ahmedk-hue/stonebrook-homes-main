@@ -52,7 +52,7 @@ const Carefree = () => {
                 url="https://stonebrook.homes/locations/carefree"
                 telephone="(480) 818-0201"
                 address={{
-                    streetAddress: "7585 E Redfield RD Suit 211",
+                    streetAddress: "7585 E Redfield RD Suite 211",
                     addressLocality: "Carefree",
                     addressRegion: "AZ",
                     postalCode: "85377",

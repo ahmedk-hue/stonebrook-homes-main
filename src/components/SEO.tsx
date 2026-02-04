@@ -14,7 +14,7 @@ interface SEOProps {
 const SEO: React.FC<SEOProps> = ({
     title,
     description,
-    canonical = 'https://homesteadhomebuilders.com', // This should technically be dynamic too, but requires base URL config if flexible
+    canonical = 'https://stonebrook.homes', // This should technically be dynamic too, but requires base URL config if flexible
     type = 'website',
     name = SITE_CONFIG.name,
     image = '/logo.png'

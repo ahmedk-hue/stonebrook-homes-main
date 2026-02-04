@@ -67,11 +67,11 @@ const LocationHero = ({ city, subtitle, image, customersServed }: LocationHeroPr
                                 Schedule Consultation
                             </Link>
                             <a
-                                href="tel:9707753796"
+                                href="tel:4808180201"
                                 className="flex items-center gap-2 text-white font-bold hover:text-accent transition-colors px-4 py-3"
                             >
                                 <Phone size={20} />
-                                970.775.3796
+                                480.818.0201
                             </a>
                         </div>
                     </motion.div>

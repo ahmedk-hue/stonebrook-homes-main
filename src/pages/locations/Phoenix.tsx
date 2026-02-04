@@ -53,7 +53,7 @@ const Phoenix = () => {
                 url="https://stonebrook.homes/locations/phoenix"
                 telephone="(480) 818-0201"
                 address={{
-                    streetAddress: "7585 E Redfield RD Suit 211",
+                    streetAddress: "7585 E Redfield RD Suite 211",
                     addressLocality: "Phoenix",
                     addressRegion: "AZ",
                     postalCode: "85016",

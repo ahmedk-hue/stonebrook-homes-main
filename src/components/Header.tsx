@@ -25,12 +25,7 @@ const Header = () => {
         {
             name: 'Services',
             path: '/services',
-            children: [
-                { name: 'New Construction', path: '/services/new-construction' },
-                { name: 'Remodeling', path: '/services/remodeling' },
-                { name: 'Commercial Construction', path: '/services/commercial' },
-                { name: 'Additions', path: '/services/additions' },
-            ]
+            children: SITE_CONFIG.services
         },
         {
             name: 'Locations',

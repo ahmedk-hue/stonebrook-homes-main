@@ -20,15 +20,15 @@ const BlogSchema = ({ title, description, datePublished, authorName, image, url 
         "dateModified": datePublished, // Ideally this would track updates
         "author": {
             "@type": "Person",
-            "name": authorName,
-            "url": "https://homesteadhomebuilders.com/about" // Linking to About page for Entity connection
+            "name": "Stonebrook Homes",
+            "url": "https://stonebrook.homes/about"
         },
         "publisher": {
             "@type": "Organization",
-            "name": "Homestead Home Builders",
+            "name": "Stonebrook Homes",
             "logo": {
                 "@type": "ImageObject",
-                "url": "https://homesteadhomebuilders.com/logo.png"
+                "url": "https://stonebrook.homes/logo.png"
             }
         },
         "mainEntityOfPage": {
@@ -37,7 +37,7 @@ const BlogSchema = ({ title, description, datePublished, authorName, image, url 
         },
         "inLanguage": "en-US",
         "isAccessibleForFree": true,
-        "articleBody": description // In a real scenario, this might need full body or summary
+        "articleBody": description
     };
 
     return (

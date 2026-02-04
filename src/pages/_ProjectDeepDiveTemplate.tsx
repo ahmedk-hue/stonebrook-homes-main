@@ -38,9 +38,9 @@ const __PAGE_COMPONENT__ = () => {
     return (
         <>
             <SEO
-                title={`${project.title} | Custom Home Portfolio`}
+                title={`${project.title} | Stonebrook Homes Portfolio`}
                 description={`Explore the ${project.title}, a ${project.category} in ${project.location}.`}
-                canonical={`https://homesteadhomebuilders.com/portfolio/__PAGE_NAME__`} // Assuming filename is slug
+                canonical={`https://stonebrook.homes/portfolio/__PAGE_NAME__`} // Assuming filename is slug
             />
 
             <PageHeader
