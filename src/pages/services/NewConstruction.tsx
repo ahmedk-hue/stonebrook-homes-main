@@ -51,13 +51,13 @@ const NewConstruction = () => {
                 serviceName="Luxury Custom Home Construction"
                 description="Expert builders of high-end custom homes in Scottsdale and Paradise Valley. Precision-driven construction with a focus on quality and honesty."
                 areaServed={["Scottsdale", "Paradise Valley", "Fountain Hills", "Carefree", "Cave Creek", "Phoenix"]}
-                image="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop"
+                image="/luxury-home-site.jpg"
             />
 
             <ServiceHero
                 title="Luxury Custom Home Builders in Scottsdale"
                 subtitle="Uncompromising Quality. Precision-Driven Excellence."
-                backgroundImage="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop"
+                backgroundImage="/luxury-home-site.jpg"
                 primaryCtaText="Start Feasibility Study"
                 secondaryCtaText="Download Cost Guide"
                 secondaryCtaLink="/resources/cost-guide-optin"
