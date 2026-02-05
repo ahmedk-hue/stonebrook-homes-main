@@ -44,7 +44,7 @@ const TestimonialCarousel = () => {
 
             <div className="container mx-auto px-6 relative z-10">
                 <div className="text-center mb-16">
-                    <Star className="w-8 h-8 text-accent mx-auto mb-4" fill="currentColor" />
+                    <Star className="w-8 h-8 text-white mx-auto mb-4" fill="currentColor" />
                     <h2 className="text-4xl font-serif font-bold">Client Experiences</h2>
                 </div>
 
@@ -58,12 +58,12 @@ const TestimonialCarousel = () => {
                             transition={{ duration: 0.5 }}
                             className="text-center"
                         >
-                            <Quote className="w-16 h-16 text-accent/20 mx-auto mb-8" />
+                            <Quote className="w-16 h-16 text-white/10 mx-auto mb-8" />
                             <p className="text-2xl md:text-3xl font-serif italic leading-relaxed mb-10 text-slate-200">
                                 "{testimonials[current].text}"
                             </p>
                             <div>
-                                <h4 className="text-xl font-bold text-accent">{testimonials[current].author}</h4>
+                                <h4 className="text-xl font-bold text-white">{testimonials[current].author}</h4>
                                 <p className="text-sm tracking-widest uppercase text-slate-400 mt-2">{testimonials[current].location}</p>
                             </div>
                         </motion.div>

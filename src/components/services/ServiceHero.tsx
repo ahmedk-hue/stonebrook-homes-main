@@ -36,7 +36,7 @@ const ServiceHero = ({
             </div>
 
             <div className="relative container mx-auto px-6 text-center z-10 max-w-4xl pt-20">
-                <span className="inline-block py-2 px-4 bg-accent/90 text-primary font-bold uppercase tracking-widest text-sm mb-6 rounded-sm backdrop-blur-sm shadow-sm">
+                <span className="inline-block py-2 px-4 bg-accent/90 text-white font-bold uppercase tracking-widest text-sm mb-6 rounded-sm backdrop-blur-sm shadow-sm">
                     Premium Custom Home Builder
                 </span>
                 <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold text-white mb-6 leading-tight drop-shadow-xl">
@@ -49,7 +49,7 @@ const ServiceHero = ({
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     <Link
                         to={primaryCtaLink}
-                        className="px-8 py-4 bg-accent text-primary font-bold uppercase tracking-widest hover:bg-white transition-colors rounded-sm shadow-xl flex items-center justify-center gap-2 group"
+                        className="px-8 py-4 bg-accent text-white font-bold uppercase tracking-widest hover:bg-white hover:text-primary transition-colors rounded-sm shadow-xl flex items-center justify-center gap-2 group"
                     >
                         {primaryCtaText} <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
                     </Link>

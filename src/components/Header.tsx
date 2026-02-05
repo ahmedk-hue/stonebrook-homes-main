@@ -178,7 +178,7 @@ const Header = () => {
                     <div className="mt-8 space-y-4">
                         <Link
                             to="/contact"
-                            className="block text-center w-full bg-accent text-primary py-4 font-bold uppercase tracking-widest rounded-sm"
+                            className="block text-center w-full bg-accent text-white py-4 font-bold uppercase tracking-widest rounded-sm"
                             onClick={() => setIsOpen(false)}
                         >
                             Request A Discovery Call

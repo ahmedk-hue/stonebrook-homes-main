@@ -5,7 +5,7 @@ import { SITE_CONFIG } from '../config/site';
 
 const Footer = () => {
     return (
-        <footer className="bg-slate-900 text-slate-300 pt-20 pb-10">
+        <footer className="bg-secondary text-slate-300 pt-20 pb-10">
             <div className="container mx-auto px-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 mb-16">
 
@@ -29,7 +29,7 @@ const Footer = () => {
                         <ul className="space-y-3">
                             {['Home', 'About Us', 'Services', 'Portfolio', 'Blog', 'Contact'].map((item) => (
                                 <li key={item}>
-                                    <Link to={`/${item.toLowerCase().replace(' ', '-')}`} className="hover:text-secondary transition-colors">
+                                    <Link to={`/${item.toLowerCase().replace(' ', '-')}`} className="hover:text-primary transition-colors">
                                         {item === 'Home' ? 'Home' : item}
                                     </Link>
                                 </li>
@@ -43,7 +43,7 @@ const Footer = () => {
                         <ul className="space-y-3">
                             {SITE_CONFIG.services.map((service) => (
                                 <li key={service.path}>
-                                    <Link to={service.path} className="hover:text-secondary transition-colors">{service.name}</Link>
+                                    <Link to={service.path} className="hover:text-primary transition-colors">{service.name}</Link>
                                 </li>
                             ))}
                         </ul>
@@ -55,7 +55,7 @@ const Footer = () => {
                         <ul className="space-y-3 text-sm">
                             {SITE_CONFIG.serviceAreas.map((area) => (
                                 <li key={area.path}>
-                                    <Link to={area.path} className="hover:text-secondary transition-colors">{area.name}</Link>
+                                    <Link to={area.path} className="hover:text-primary transition-colors">{area.name}</Link>
                                 </li>
                             ))}
                         </ul>
@@ -66,15 +66,15 @@ const Footer = () => {
                         <h3 className="text-white font-bold uppercase tracking-widest mb-6">Contact</h3>
                         <ul className="space-y-4">
                             <li className="flex gap-3">
-                                <MapPin className="text-secondary flex-shrink-0" />
+                                <MapPin className="text-primary flex-shrink-0" />
                                 <span>{SITE_CONFIG.contact.address.street}<br />{SITE_CONFIG.contact.address.city}, {SITE_CONFIG.contact.address.state} {SITE_CONFIG.contact.address.zip}</span>
                             </li>
                             <li className="flex gap-3">
-                                <Phone className="text-secondary flex-shrink-0" />
+                                <Phone className="text-primary flex-shrink-0" />
                                 <a href={SITE_CONFIG.contact.phoneHref} className="hover:text-white">{SITE_CONFIG.contact.phone}</a>
                             </li>
                             <li className="flex gap-3">
-                                <Mail className="text-secondary flex-shrink-0" />
+                                <Mail className="text-primary flex-shrink-0" />
                                 <a href={`mailto:${SITE_CONFIG.contact.email}`} className="hover:text-white">{SITE_CONFIG.contact.email}</a>
                             </li>
                         </ul>

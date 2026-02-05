@@ -8,8 +8,8 @@ export default {
         extend: {
             colors: {
                 primary: "#406868", // Dark Teal/Slate
-                secondary: "#FFFFFF", // White
-                accent: "#B77050", // Copper/Tan
+                secondary: "#000000", // Black (Dossier)
+                accent: "#406868", // Removed Rusty, using Primary for now
                 surface: "#F8FAFC", // Light Grey Surface
             },
             fontFamily: {
