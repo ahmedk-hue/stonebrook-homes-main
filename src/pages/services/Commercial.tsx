@@ -119,7 +119,7 @@ const Commercial = () => {
                 quote="The level of precision Stonebrook brought to our medical suite build-out was unparalleled. They managed a complex schedule with multiple specialized subs and hit every milestone, allowing us to open on time and on budget."
                 author="Dr. Robert S."
                 location="Medical Center Build-Out in Scottsdale"
-                image="https://images.unsplash.com/photo-1559839734-2b71ef15995d?q=80&w=2070&auto=format&fit=crop"
+                image="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?q=80&w=2000&auto=format&fit=crop"
             />
 
             <ProcessSteps />

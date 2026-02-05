@@ -121,7 +121,7 @@ const NewConstruction = () => {
                 quote="The level of detail Stonebrook brought to our Scottsdale build was staggering. Their aviation-derived discipline meant no surprises, no excuses, and a home that truly felt like a masterpiece from day one."
                 author="David & Elena R."
                 location="Custom Estate in Paradise Valley"
-                image="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1887&auto=format&fit=crop"
+                image="https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?q=80&w=2000&auto=format&fit=crop"
             />
 
             {/* The Process: Operational Transparency */}

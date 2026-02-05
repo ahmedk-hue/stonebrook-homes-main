@@ -119,7 +119,7 @@ const Additions = () => {
                 quote="The team at Stonebrook added a master wing and a custom casita to our Paradise Valley home. You genuinely cannot tell where the old house ends and the new one begins. Their attention to detail is truly world-class."
                 author="The Morrison Family"
                 location="Luxury Addition in Paradise Valley"
-                image="https://images.unsplash.com/photo-1598228723793-52759bba239c?q=80&w=2070&auto=format&fit=crop"
+                image="https://images.unsplash.com/photo-1511895426328-dc8714191300?q=80&w=2000&auto=format&fit=crop"
             />
 
             <ProcessSteps />
