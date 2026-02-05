@@ -47,7 +47,7 @@ const ProcessSteps = () => {
 
                             <div className="flex flex-col items-center text-center">
                                 <div className="w-16 h-16 bg-slate-800 rounded-full flex items-center justify-center border-2 border-slate-700 group-hover:border-accent transition-colors mb-6 z-10 shadow-lg relative">
-                                    <step.icon className="text-accent" size={28} />
+                                    <step.icon className="text-white" size={28} />
                                     <div className="absolute -top-2 -right-2 w-6 h-6 bg-white rounded-full text-primary font-bold text-xs flex items-center justify-center">
                                         {index + 1}
                                     </div>

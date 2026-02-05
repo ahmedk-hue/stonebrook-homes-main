@@ -54,7 +54,7 @@ const ProcessSection = () => {
                                 transition={{ delay: index * 0.2 }}
                                 className="bg-white p-8 rounded-none border-l-4 border-l-transparent hover:border-l-accent shadow-sm hover:shadow-xl transition-all group"
                             >
-                                <div className="w-16 h-16 bg-primary flex items-center justify-center text-accent mb-8 group-hover:scale-110 transition-transform shadow-lg">
+                                <div className="w-16 h-16 bg-primary flex items-center justify-center text-white mb-8 group-hover:scale-110 transition-transform shadow-lg">
                                     <step.icon size={32} />
                                 </div>
                                 <h4 className="text-xl font-serif font-bold text-primary mb-4">{index + 1}. {step.title}</h4>
