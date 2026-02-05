@@ -63,7 +63,7 @@ export const projects: ProjectData[] = [
             beds: "4",
             baths: "4.5"
         },
-        mainImage: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?q=80&w=2071&auto=format&fit=crop",
+        mainImage: "/projects/modern-farmhouse.png",
         gallery: [
             "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2053&auto=format&fit=crop",
             "https://images.unsplash.com/photo-1600607687644-c7171b42498f?q=80&w=2070&auto=format&fit=crop"
@@ -89,7 +89,7 @@ export const projects: ProjectData[] = [
             beds: "6",
             baths: "7.5"
         },
-        mainImage: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?q=80&w=2071&auto=format&fit=crop",
+        mainImage: "/projects/silverleaf-manor.png",
         gallery: [
             "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop",
             "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=2070&auto=format&fit=crop",
