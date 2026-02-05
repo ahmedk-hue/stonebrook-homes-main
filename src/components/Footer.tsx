@@ -5,21 +5,21 @@ import { SITE_CONFIG } from '../config/site';
 
 const Footer = () => {
     return (
-        <footer className="bg-secondary text-slate-300 pt-20 pb-10">
+        <footer className="bg-[#0f1d1d] text-slate-400 pt-20 pb-10 border-t border-white/5">
             <div className="container mx-auto px-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 mb-16">
 
                     {/* Brand Col */}
                     <div>
-                        <Link to="/" className="inline-block mb-6 bg-white p-3 rounded-lg shadow-lg">
-                            <img src="/logo.png" alt={SITE_CONFIG.name} className="h-12 w-auto" />
+                        <Link to="/" className="inline-block mb-8 transition-transform hover:scale-105">
+                            <img src="/logo.png" alt={SITE_CONFIG.name} className="h-16 w-auto brightness-0 invert" />
                         </Link>
                         <p className="mb-6 leading-relaxed">
                             Serving {SITE_CONFIG.serviceAreas[0].name}, {SITE_CONFIG.serviceAreas[1].name}, and surrounding areas since {SITE_CONFIG.foundingYear}. We build quality custom homes tailored to your lifestyle and land.
                         </p>
-                        <div className="flex gap-4">
-                            <a href={SITE_CONFIG.socials.facebook} className="hover:text-white transition-colors"><Facebook size={24} /></a>
-                            <a href={SITE_CONFIG.socials.instagram} className="hover:text-white transition-colors"><Instagram size={24} /></a>
+                        <div className="flex gap-5">
+                            <a href={SITE_CONFIG.socials.facebook} className="text-slate-500 hover:text-white transition-colors"><Facebook size={22} /></a>
+                            <a href={SITE_CONFIG.socials.instagram} className="text-slate-500 hover:text-white transition-colors"><Instagram size={22} /></a>
                         </div>
                     </div>
 
@@ -82,11 +82,11 @@ const Footer = () => {
 
                 </div>
 
-                <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
-                    <p>&copy; {new Date().getFullYear()} {SITE_CONFIG.name}. All rights reserved.</p>
-                    <div className="flex gap-6">
-                        <Link to="/privacy-policy" className="hover:text-white">Privacy Policy</Link>
-                        <Link to="/sitemap" className="hover:text-white">Sitemap</Link>
+                <div className="border-t border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs tracking-widest uppercase">
+                    <p className="text-slate-500">&copy; {new Date().getFullYear()} {SITE_CONFIG.name}. All rights reserved.</p>
+                    <div className="flex gap-8">
+                        <Link to="/privacy-policy" className="text-slate-500 hover:text-white transition-colors">Privacy Policy</Link>
+                        <Link to="/sitemap" className="text-slate-500 hover:text-white transition-colors">Sitemap</Link>
                     </div>
                 </div>
             </div>
