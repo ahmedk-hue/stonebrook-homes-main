@@ -119,7 +119,7 @@ const Remodeling = () => {
                 quote="The transformation Stonebrook achieved in our Scottsdale home was remarkable. They managed the structural changes with a level of discipline we haven't seen in other contractors, and the result is truly a modern masterpiece."
                 author="Mark & Sarah L."
                 location="Whole Home Remodel in Scottsdale"
-                image="https://images.unsplash.com/photo-1516575150278-771d105f992e?q=80&w=2000&auto=format&fit=crop"
+                image="/remodeling-testimonial.png"
             />
 
             {/* The Process */}
