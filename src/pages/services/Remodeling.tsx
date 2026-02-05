@@ -53,13 +53,13 @@ const Remodeling = () => {
                 serviceName="Luxury Home Remodeling & Renovation"
                 description="Comprehensive high-end remodeling services in the Arizona Valley. Specializing in structural modifications and premium interior transformations."
                 areaServed={["Scottsdale", "Paradise Valley", "Fountain Hills", "Carefree", "Cave Creek", "Phoenix"]}
-                image="https://images.unsplash.com/photo-1556912173-3db996ea0622?q=80&w=2070&auto=format&fit=crop"
+                image="/remodeling-hero.jpg"
             />
 
             <ServiceHero
                 title="Luxury Home Remodeling & Renovations"
                 subtitle="Transform your home into a modern masterpiece with Scottsdale's precision builders."
-                backgroundImage="https://images.unsplash.com/photo-1556912173-3db996ea0622?q=80&w=2070&auto=format&fit=crop"
+                backgroundImage="/remodeling-hero.jpg"
                 primaryCtaText="Start Discovery Session"
                 secondaryCtaText="Download Cost Guide"
                 secondaryCtaLink="/resources/cost-guide-optin"
@@ -78,7 +78,7 @@ const Remodeling = () => {
                             className="lg:w-1/2 relative"
                         >
                             <div className="relative z-10 rounded-lg overflow-hidden shadow-2xl">
-                                <img src="https://images.unsplash.com/photo-1484154218962-a1c002085d2f?q=80&w=2071&auto=format&fit=crop" alt="Modern Kitchen Renovation" className="w-full h-auto" />
+                                <img src="/kitchen-renovation.png" alt="Modern Kitchen Renovation" className="w-full h-auto" />
                             </div>
                             <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-primary/10 rounded-full z-0 blur-2xl"></div>
                         </motion.div>
