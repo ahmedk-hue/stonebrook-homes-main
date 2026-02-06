@@ -7,14 +7,14 @@ const Footer = () => {
     return (
         <footer className="bg-[#0f1d1d] text-slate-400 pt-20 pb-10 border-t border-white/5">
             <div className="container mx-auto px-6">
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 mb-16">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8 lg:gap-12 mb-16">
 
                     {/* Brand Col */}
-                    <div>
-                        <Link to="/" className="inline-block mb-8 transition-transform hover:scale-105">
-                            <img src="/logo.png" alt={SITE_CONFIG.name} className="h-16 w-auto brightness-0 invert" />
+                    <div className="lg:col-span-2">
+                        <Link to="/" className="inline-block mb-6">
+                            <img src="/logo.png" alt={SITE_CONFIG.name} className="h-auto w-48 brightness-0 invert" />
                         </Link>
-                        <p className="mb-6 leading-relaxed">
+                        <p className="mb-6 leading-relaxed max-w-sm">
                             Serving {SITE_CONFIG.serviceAreas[0].name}, {SITE_CONFIG.serviceAreas[1].name}, and surrounding areas since {SITE_CONFIG.foundingYear}. We build quality custom homes tailored to your lifestyle and land.
                         </p>
                         <div className="flex gap-5">
@@ -72,17 +72,17 @@ const Footer = () => {
                     <div>
                         <h3 className="text-white font-bold uppercase tracking-widest mb-6">Contact</h3>
                         <ul className="space-y-4">
-                            <li className="flex gap-3">
-                                <MapPin className="text-primary flex-shrink-0" />
+                            <li className="flex gap-3 items-start">
+                                <MapPin className="text-primary flex-shrink-0 mt-1" size={20} />
                                 <span>{SITE_CONFIG.contact.address.street}<br />{SITE_CONFIG.contact.address.city}, {SITE_CONFIG.contact.address.state} {SITE_CONFIG.contact.address.zip}</span>
                             </li>
-                            <li className="flex gap-3">
-                                <Phone className="text-primary flex-shrink-0" />
+                            <li className="flex gap-3 items-center">
+                                <Phone className="text-primary flex-shrink-0" size={20} />
                                 <a href={SITE_CONFIG.contact.phoneHref} className="hover:text-white">{SITE_CONFIG.contact.phone}</a>
                             </li>
-                            <li className="flex gap-3">
-                                <Mail className="text-primary flex-shrink-0" />
-                                <a href={`mailto:${SITE_CONFIG.contact.email}`} className="hover:text-white">{SITE_CONFIG.contact.email}</a>
+                            <li className="flex gap-3 items-center">
+                                <Mail className="text-primary flex-shrink-0" size={20} />
+                                <a href={`mailto:${SITE_CONFIG.contact.email}`} className="hover:text-white break-all">{SITE_CONFIG.contact.email}</a>
                             </li>
                         </ul>
                     </div>
