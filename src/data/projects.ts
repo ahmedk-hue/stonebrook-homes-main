@@ -91,12 +91,12 @@ export const projects: ProjectData[] = [
         },
         mainImage: "/projects/silverleaf-manor.png",
         gallery: [
-            "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop",
-            "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=2070&auto=format&fit=crop",
-            "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?q=80&w=2070&auto=format&fit=crop"
+            "https://images.unsplash.com/photo-1600607686527-6fb886090705?q=80&w=2000&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?q=80&w=2000&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1600566752355-35792bedcfe1?q=80&w=2000&auto=format&fit=crop"
         ],
         testimonial: {
-            videoThumbnail: "https://images.unsplash.com/photo-1516156008625-3a9d60bdd72e?q=80&w=2070&auto=format&fit=crop",
+            videoThumbnail: "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=2000&auto=format&fit=crop",
             videoUrl: "#",
             quote: "Stonebrook didn't just build a home; they engineered a sanctuary. Their attention to precision and transparency is unmatched in the Scottsdale market.",
             author: "The Thompson Family"
@@ -118,12 +118,12 @@ export const projects: ProjectData[] = [
         },
         mainImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2070&auto=format&fit=crop",
         gallery: [
-            "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2053&auto=format&fit=crop",
-            "https://images.unsplash.com/photo-1600607687644-c7171b42498f?q=80&w=2070&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1600585152220-90363fe7e115?q=80&w=2000&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?q=80&w=2000&auto=format&fit=crop",
             "https://images.unsplash.com/photo-1600585154526-990dced4db0d?q=80&w=2187&auto=format&fit=crop"
         ],
         testimonial: {
-            videoThumbnail: "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?q=80&w=2070&auto=format&fit=crop",
+            videoThumbnail: "https://images.unsplash.com/photo-1600573472591-ee6b68d14c68?q=80&w=2000&auto=format&fit=crop",
             videoUrl: "#",
             quote: "Managing a project of this scale usually means surprises. With Stonebrook, the precision in their planning and constant communication made the process seamless.",
             author: "Dr. & Mrs. Aris"
