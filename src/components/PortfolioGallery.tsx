@@ -41,8 +41,8 @@ const PortfolioGallery = () => {
                                 className="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-700"
                                 loading="lazy"
                             />
-                            <div className="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                            <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-primary/90 to-transparent translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                            <div className="absolute inset-0 bg-primary/20 transition-opacity duration-300" />
+                            <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-primary/90 to-transparent transition-transform duration-300">
                                 <span className="text-secondary text-xs font-bold uppercase tracking-widest block mb-1">
                                     {image.category}
                                 </span>
