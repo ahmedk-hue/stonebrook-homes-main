@@ -18,7 +18,7 @@ const Services = () => {
             <PageHeader
                 title="Our Services"
                 subtitle="Aviation-grade precision and unwavering honesty for every stage of your project's lifecycle."
-                backgroundImage="https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=2031&auto=format&fit=crop"
+                backgroundImage="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop"
                 breadcrumbs={[
                     { label: 'Home', path: '/' },
                     { label: 'Services', path: '/services' }

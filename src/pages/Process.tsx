@@ -75,7 +75,7 @@ const Process = () => {
                 "Move-In Day celebration",
                 "1-Year and 10-Year Structural Warranty coverage"
             ],
-            image: "https://images.unsplash.com/photo-1560518883-ce09059ee971?q=80&w=2073&auto=format&fit=crop"
+            image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2070&auto=format&fit=crop"
         }
     ];
 

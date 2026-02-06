@@ -16,7 +16,7 @@ const Resources = () => {
             <PageHeader
                 title="Resources"
                 subtitle="Everything you need to know about building with Stonebrook."
-                backgroundImage="https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=2089&auto=format&fit=crop"
+                backgroundImage="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2069&auto=format&fit=crop"
                 breadcrumbs={[
                     { label: 'Home', path: '/' },
                     { label: 'Resources', path: '/resources' }
