@@ -34,11 +34,11 @@ const Locations = () => {
                                         alt={location.name}
                                         className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                                     />
-                                    <div className="absolute inset-0 bg-primary/40 group-hover:bg-primary/50 transition-colors" />
+                                    <div className="absolute inset-0 bg-primary/60 group-hover:bg-primary/70 transition-colors" />
                                 </div>
 
                                 <div className="relative p-8 h-80 flex flex-col justify-end text-white">
-                                    <div className="flex items-center gap-2 mb-2 text-accent">
+                                    <div className="flex items-center gap-2 mb-2 text-white">
                                         <MapPin size={20} />
                                         <span className="font-bold tracking-wider uppercase text-sm">Service Area</span>
                                     </div>
