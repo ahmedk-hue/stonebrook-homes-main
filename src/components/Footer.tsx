@@ -12,7 +12,7 @@ const Footer = () => {
                     {/* Brand Col */}
                     <div className="lg:col-span-2">
                         <Link to="/" className="inline-block mb-6">
-                            <img src="/logo.png" alt={SITE_CONFIG.name} className="h-auto w-48 brightness-0 invert" />
+                            <img src="/logo.png" alt={SITE_CONFIG.name} className="h-auto w-72 brightness-0 invert" />
                         </Link>
                         <p className="mb-6 leading-relaxed max-w-sm">
                             Serving {SITE_CONFIG.serviceAreas[0].name}, {SITE_CONFIG.serviceAreas[1].name}, and surrounding areas since {SITE_CONFIG.foundingYear}. We build quality custom homes tailored to your lifestyle and land.
@@ -82,7 +82,7 @@ const Footer = () => {
                             </li>
                             <li className="flex gap-3 items-center">
                                 <Mail className="text-primary flex-shrink-0" size={20} />
-                                <a href={`mailto:${SITE_CONFIG.contact.email}`} className="hover:text-white break-all">{SITE_CONFIG.contact.email}</a>
+                                <a href={`mailto:${SITE_CONFIG.contact.email}`} className="hover:text-white whitespace-nowrap">{SITE_CONFIG.contact.email}</a>
                             </li>
                         </ul>
                     </div>
