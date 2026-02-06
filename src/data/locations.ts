@@ -27,7 +27,7 @@ export const locations: LocationData[] = [
         metaDescription: 'Ultra-luxury custom home building in Paradise Valley. Specialized in private estates, hillside builds, and expansive luxury residences.',
         introTitle: 'Ultra-Luxury Estates in Paradise Valley',
         introText: 'Paradise Valley represents the pinnacle of Arizona living. We specialize in ultra-luxury estates that demand extreme privacy and sophisticated engineering, ensuring every detail reflects the prestige of the zip code.',
-        image: 'https://images.unsplash.com/photo-1600596542815-afaad110a30b?q=80&w=2071&auto=format&fit=crop',
+        image: 'https://images.unsplash.com/photo-1512915922686-57c11dde9b6b?q=80&w=2070&auto=format&fit=crop',
         landmarks: ['Camelback Mountain', 'Echo Canyon', 'Sanctuary Resort', 'Paradise Valley Country Club']
     },
     {
