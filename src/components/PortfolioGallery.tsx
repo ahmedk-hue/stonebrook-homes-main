@@ -3,11 +3,12 @@ import { motion } from 'framer-motion';
 import { projects } from '../data/projects';
 
 const PortfolioGallery = () => {
-    // Flatten all images into a single array for the "pure gallery" feel
-    const allImages = projects.flatMap(project => [
-        { src: project.mainImage, title: project.title, category: project.category },
-        ...project.gallery.map(img => ({ src: img, title: project.title, category: project.category }))
-    ]);
+    // Show strictly one representative image per project as requested
+    const allImages = projects.map(project => ({
+        src: project.gallery[0] || project.mainImage,
+        title: project.title,
+        category: project.category
+    }));
 
     // Shuffle only for display variety if needed, but for now specific order is fine.
     // We'll use a CSS column layout for a true masonry look.
