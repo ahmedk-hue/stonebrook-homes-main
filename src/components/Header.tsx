@@ -82,7 +82,7 @@ const Header = () => {
                             <Link
                                 to={item.path}
                                 className={`flex items-center gap-1 text-[13px] font-bold uppercase tracking-[0.15em] transition-all py-2 border-b-2 border-transparent
-                                    ${isActive(item.path) ? 'text-accent border-accent' : `${textColor} hover:text-accent hover:border-accent/30`}`}
+                                    ${isActive(item.path) ? 'text-accent border-accent' : `${textColor} hover:opacity-80 hover:border-accent/30`}`}
                             >
                                 {item.name}
                                 {item.children && <ChevronDown size={12} className={`group-hover:rotate-180 transition-transform opacity-50 ${textColor}`} />}
