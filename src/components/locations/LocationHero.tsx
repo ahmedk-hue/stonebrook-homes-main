@@ -62,7 +62,7 @@ const LocationHero = ({ city, subtitle, image, customersServed }: LocationHeroPr
                         <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-center">
                             <Link
                                 to="/contact"
-                                className="bg-accent text-white px-8 py-4 font-bold uppercase tracking-widest hover:bg-white hover:text-primary transition-colors rounded-sm shadow-xl w-full sm:w-auto text-center"
+                                className="bg-white text-primary px-8 py-4 font-bold uppercase tracking-widest hover:bg-accent hover:text-white transition-colors rounded-sm shadow-xl w-full sm:w-auto text-center"
                             >
                                 Schedule Consultation
                             </Link>
