@@ -7,10 +7,10 @@ const Footer = () => {
     return (
         <footer className="bg-[#0f1d1d] text-slate-400 pt-20 pb-10 border-t border-white/5">
             <div className="container mx-auto px-6">
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8 lg:gap-6 mb-16">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:flex lg:justify-between lg:gap-10 mb-16">
 
                     {/* Brand Col */}
-                    <div className="lg:col-span-2">
+                    <div className="lg:w-[30%]">
                         <Link to="/" className="inline-block mb-6">
                             <img src="/logo.png" alt={SITE_CONFIG.name} className="h-auto w-72 brightness-0 invert" />
                         </Link>
@@ -24,7 +24,7 @@ const Footer = () => {
                     </div>
 
                     {/* Quick Links */}
-                    <div>
+                    <div className="lg:w-auto">
                         <h3 className="text-white font-bold uppercase tracking-widest mb-6">Menu</h3>
                         <ul className="space-y-3">
                             {[
@@ -45,7 +45,7 @@ const Footer = () => {
                     </div>
 
                     {/* Services (Silo Links) */}
-                    <div>
+                    <div className="lg:w-auto">
                         <h3 className="text-white font-bold uppercase tracking-widest mb-6">Services</h3>
                         <ul className="space-y-3">
                             {SITE_CONFIG.services.map((service) => (
@@ -57,7 +57,7 @@ const Footer = () => {
                     </div>
 
                     {/* Locations (New Column) */}
-                    <div>
+                    <div className="lg:w-auto">
                         <h3 className="text-white font-bold uppercase tracking-widest mb-6">Service Areas</h3>
                         <ul className="space-y-3 text-sm">
                             {SITE_CONFIG.serviceAreas.map((area) => (
@@ -69,7 +69,7 @@ const Footer = () => {
                     </div>
 
                     {/* Contact */}
-                    <div>
+                    <div className="lg:flex-1 lg:max-w-xs">
                         <h3 className="text-white font-bold uppercase tracking-widest mb-6">Contact</h3>
                         <ul className="space-y-4">
                             <li className="flex gap-3 items-start">
