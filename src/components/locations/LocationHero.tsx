@@ -68,7 +68,7 @@ const LocationHero = ({ city, subtitle, image, customersServed }: LocationHeroPr
                             </Link>
                             <a
                                 href="tel:4808180201"
-                                className="flex items-center gap-2 text-white font-bold hover:text-accent transition-colors px-4 py-3"
+                                className="flex items-center gap-2 text-white font-bold transition-colors px-4 py-3"
                             >
                                 <Phone size={20} />
                                 480.818.0201
