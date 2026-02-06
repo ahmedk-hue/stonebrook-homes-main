@@ -12,7 +12,7 @@ interface LocationHeroProps {
 
 const LocationHero = ({ city, subtitle, image, customersServed }: LocationHeroProps) => {
     return (
-        <section className="relative bg-slate-900 border-b border-white/10 pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
+        <section className="relative bg-primary border-b border-white/10 pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
             <div className="container mx-auto px-6 relative z-10">
                 <div className="flex flex-col lg:flex-row gap-12 lg:gap-20 items-center">
 
@@ -23,13 +23,13 @@ const LocationHero = ({ city, subtitle, image, customersServed }: LocationHeroPr
                         transition={{ duration: 0.8 }}
                         className="lg:w-1/2 text-left"
                     >
-                        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-accent/20 border border-accent/30 text-accent text-xs font-bold uppercase tracking-widest mb-6">
+                        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 border border-white/20 text-white text-xs font-bold uppercase tracking-widest mb-6">
                             <MapPin size={12} />
                             Serving {city} & Surrounding Areas
                         </div>
 
                         <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-white mb-6 leading-tight">
-                            Custom Home Builders in <span className="text-secondary">{city}</span>
+                            Custom Home Builders in <span className="text-white italic">{city}</span>
                         </h1>
 
                         <p className="text-lg text-slate-300 mb-8 leading-relaxed max-w-xl">
