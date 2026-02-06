@@ -27,10 +27,17 @@ const Footer = () => {
                     <div>
                         <h3 className="text-white font-bold uppercase tracking-widest mb-6">Menu</h3>
                         <ul className="space-y-3">
-                            {['Home', 'About Us', 'Services', 'Portfolio', 'Blog', 'Contact'].map((item) => (
-                                <li key={item}>
-                                    <Link to={`/${item.toLowerCase().replace(' ', '-')}`} className="hover:text-primary transition-colors">
-                                        {item === 'Home' ? 'Home' : item}
+                            {[
+                                { name: 'Home', path: '/' },
+                                { name: 'About Us', path: '/about' },
+                                { name: 'Services', path: '/services' },
+                                { name: 'Portfolio', path: '/portfolio' },
+                                { name: 'Blog', path: '/blog' },
+                                { name: 'Contact', path: '/contact' }
+                            ].map((item) => (
+                                <li key={item.name}>
+                                    <Link to={item.path} className="hover:text-primary transition-colors">
+                                        {item.name}
                                     </Link>
                                 </li>
                             ))}
