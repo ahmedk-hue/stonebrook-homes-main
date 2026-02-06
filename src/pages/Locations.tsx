@@ -8,9 +8,10 @@ const Locations = () => {
     return (
         <>
             <SEO
-                title="Service Areas Scottsdale & Arizona Valley | Stonebrook Homes"
-                description="Serving Scottsdale, Paradise Valley, Cave Creek, and the Phoenix metro area. High-precision luxury custom home building across Arizona's premier communities."
+                title="Our Service Areas - Luxury Home Builder Phoenix & Scottsdale | Stonebrook Homes"
+                description="Serving Paradise Valley, Scottsdale, Arcadia, and Phoenix with premier custom home building and remodeling services. View our service areas."
                 canonical="https://stonebrook.homes/locations"
+                keywords="service areas, custom home builder locations, paradise valley, scottsdale, arcadia, phoenix, luxury builder service map"
             />
 
             <PageHeader

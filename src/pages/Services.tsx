@@ -9,9 +9,10 @@ const Services = () => {
     return (
         <>
             <SEO
-                title="Luxury Custom Home Building & Commercial Services in Scottsdale | Stonebrook Homes"
-                description="High-precision design and build services in Scottsdale and Paradise Valley. Specialized in luxury new construction, remodeling, and commercial tenant improvements."
+                title="Our Services - Custom Home Building & Remodeling | Stonebrook Homes"
+                description="Expert custom home building, whole-home remodeling, and additions in Paradise Valley, Scottsdale, and Phoenix. Discover our comprehensive design-build services."
                 canonical="https://stonebrook.homes/services"
+                keywords="custom home building, home remodeling, home additions, commercial construction, luxury home builder, paradise valley, scottsdale"
             />
 
             <PageHeader
