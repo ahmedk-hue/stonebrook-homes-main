@@ -281,7 +281,7 @@ const Contact = () => {
                                                 <button
                                                     onClick={handleSubmit}
                                                     disabled={!formData.email || !formData.firstName}
-                                                    className="flex-1 bg-accent text-primary py-4 font-bold uppercase tracking-widest hover:bg-primary hover:text-white transition-colors disabled:opacity-50 flex items-center justify-center gap-2"
+                                                    className="flex-1 bg-accent text-white py-4 font-bold uppercase tracking-widest hover:bg-primary transition-colors disabled:opacity-50 flex items-center justify-center gap-2"
                                                 >
                                                     Complete & Book Call <ChevronRight size={20} />
                                                 </button>
