@@ -40,8 +40,8 @@ const CostGuideOptIn = () => {
     return (
         <>
             <Helmet>
-                <title>2025 Cost to Build Guide | Northern Colorado Custom Homes</title>
-                <meta name="description" content="Download our comprehensive guide to understanding custom home building costs in Fort Collins, Loveland, and Windsor. Real numbers, no guesswork." />
+                <title>2025 Cost to Build Guide | Scottsdale Custom Homes</title>
+                <meta name="description" content="Download our comprehensive guide to understanding custom home building costs in Scottsdale and the Arizona Valley. Real numbers, no guesswork." />
             </Helmet>
 
             <div className="min-h-screen bg-stone-50">
@@ -60,7 +60,7 @@ const CostGuideOptIn = () => {
                             </div>
 
                             <h1 className="text-4xl lg:text-5xl font-serif text-stone-900 leading-tight mb-6">
-                                Stop Guessing. Know the <span className="italic text-stone-600">Real Cost</span> to Build in Northern Colorado.
+                                Stop Guessing. Know the <span className="italic text-stone-600">Real Cost</span> to Build in Scottsdale and the Arizona Valley.
                             </h1>
 
                             <p className="text-lg text-stone-600 mb-8 leading-relaxed">
