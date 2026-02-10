@@ -136,7 +136,7 @@ const Remodeling = () => {
                     <p className="text-lg text-slate-600 mb-8">
                         Get our <strong>2026 Construction Cost Guide</strong>. See specific price ranges for upscale kitchen upgrades, master suite additions, and whole-house transformations in Scottsdale.
                     </p>
-                    <RouterLink to="/resources/cost-guide-optin" className="inline-block bg-white border-2 border-primary text-primary px-8 py-4 font-bold uppercase tracking-widest hover:bg-primary hover:text-white transition-colors rounded-sm shadow-md">
+                    <RouterLink to="/resources/cost-guide-optin" className="inline-block bg-white border-2 border-primary text-primary px-4 py-3.5 md:px-8 md:py-4 font-bold uppercase tracking-wider md:tracking-widest hover:bg-primary hover:text-white transition-colors rounded-sm shadow-md text-[10px] sm:text-xs md:text-sm">
                         Download Free Guide
                     </RouterLink>
                     <p className="text-sm text-slate-500 mt-4 italic">Updated for AZ Market Rates</p>

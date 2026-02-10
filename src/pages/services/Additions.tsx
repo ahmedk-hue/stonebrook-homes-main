@@ -133,7 +133,7 @@ const Additions = () => {
                     <p className="text-lg text-slate-600 mb-8">
                         Additions require expert planning. Our <strong>2026 Construction Cost Guide</strong> breaks down the costs of casitas, pop-tops, and structural expansions in Scottsdale.
                     </p>
-                    <RouterLink to="/resources/cost-guide-optin" className="inline-block bg-white border-2 border-primary text-primary px-8 py-4 font-bold uppercase tracking-widest hover:bg-primary hover:text-white transition-colors rounded-sm shadow-md">
+                    <RouterLink to="/resources/cost-guide-optin" className="inline-block bg-white border-2 border-primary text-primary px-4 py-3.5 md:px-8 md:py-4 font-bold uppercase tracking-wider md:tracking-widest hover:bg-primary hover:text-white transition-colors rounded-sm shadow-md text-[10px] sm:text-xs md:text-sm">
                         Download Free Guide
                     </RouterLink>
                 </div>

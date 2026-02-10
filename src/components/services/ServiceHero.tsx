@@ -39,7 +39,7 @@ const ServiceHero = ({
                 <span className="inline-block py-2 px-4 bg-accent/90 text-white font-bold uppercase tracking-widest text-sm mb-6 rounded-sm backdrop-blur-sm shadow-sm">
                     Premium Custom Home Builder
                 </span>
-                <h1 className="text-3xl md:text-6xl lg:text-7xl font-serif font-bold text-white mb-6 leading-tight drop-shadow-xl">
+                <h1 className="text-2xl md:text-6xl lg:text-7xl font-serif font-bold text-white mb-6 leading-tight drop-shadow-xl">
                     {title}
                 </h1>
                 <p className="text-base md:text-2xl text-slate-100 mb-10 font-light max-w-2xl mx-auto leading-relaxed drop-shadow-md">
@@ -49,13 +49,13 @@ const ServiceHero = ({
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     <Link
                         to={primaryCtaLink}
-                        className="px-6 py-3.5 md:px-8 md:py-4 bg-[#ffffff] text-[#406868] font-bold uppercase tracking-widest hover:bg-[#406868] hover:text-white transition-colors rounded-sm shadow-xl flex items-center justify-center gap-2 group text-xs md:text-sm"
+                        className="px-4 py-3.5 md:px-8 md:py-4 bg-[#ffffff] text-[#406868] font-bold uppercase tracking-wider md:tracking-widest hover:bg-[#406868] hover:text-white transition-colors rounded-sm shadow-xl flex items-center justify-center gap-2 group text-[10px] sm:text-xs md:text-sm"
                     >
-                        {primaryCtaText} <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
+                        {primaryCtaText} <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
                     </Link>
                     <Link
                         to={secondaryCtaLink}
-                        className="px-6 py-3.5 md:px-8 md:py-4 border-2 border-white text-white font-bold uppercase tracking-widest hover:bg-white hover:text-primary transition-colors rounded-sm text-center shadow-lg text-xs md:text-sm"
+                        className="px-4 py-3.5 md:px-8 md:py-4 border-2 border-white text-white font-bold uppercase tracking-wider md:tracking-widest hover:bg-white hover:text-primary transition-colors rounded-sm text-center shadow-lg text-[10px] sm:text-xs md:text-sm"
                     >
                         {secondaryCtaText}
                     </Link>

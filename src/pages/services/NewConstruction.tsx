@@ -138,7 +138,7 @@ const NewConstruction = () => {
                     <p className="text-lg text-slate-600 mb-8">
                         Most people underestimate the cost of luxury construction by 20-30%. Get the numbers first. Download our <strong>2026 Construction Cost Guide</strong> for real-world pricing trends.
                     </p>
-                    <RouterLink to="/resources/cost-guide-optin" className="inline-block bg-white border-2 border-primary text-primary px-6 py-3.5 md:px-8 md:py-4 font-bold uppercase tracking-widest hover:bg-primary hover:text-white transition-colors rounded-sm shadow-md text-xs md:text-sm">
+                    <RouterLink to="/resources/cost-guide-optin" className="inline-block bg-white border-2 border-primary text-primary px-4 py-3.5 md:px-8 md:py-4 font-bold uppercase tracking-wider md:tracking-widest hover:bg-primary hover:text-white transition-colors rounded-sm shadow-md text-[10px] sm:text-xs md:text-sm">
                         Download 2026 Cost Guide
                     </RouterLink>
                     <p className="text-sm text-slate-500 mt-4 italic">Updated for the Phoenix Valley Market</p>
