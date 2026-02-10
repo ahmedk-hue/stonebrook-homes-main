@@ -23,7 +23,7 @@ const CostGuide = () => {
             </Helmet>
 
             {/* Hero Section */}
-            <section className="bg-stone-900 text-white py-20">
+            <section className="bg-stone-900 text-white pt-32 pb-20">
                 <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
                     <span className="inline-block py-1 px-3 border border-stone-700 rounded-full text-xs font-medium tracking-wider mb-6 bg-stone-800/50">
                         OFFICIAL REPORT
