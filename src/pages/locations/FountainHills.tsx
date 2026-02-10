@@ -103,7 +103,7 @@ const FountainHills = () => {
                 </div>
             </section>
 
-            <RelatedProjects category="Custom Build" />
+            <RelatedProjects category="Custom Build" location="Fountain Hills" />
 
             <LocalMap
                 city="Fountain Hills"

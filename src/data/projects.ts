@@ -155,5 +155,57 @@ export const projects: ProjectData[] = [
             quote: "Stonebrook understood that our commercial build had to feel as premium as our custom residential surroundings. They delivered on every detail.",
             author: "Nexus Wellness Group"
         }
+    },
+    {
+        slug: 'biltmore-estate',
+        title: "The Biltmore Estate",
+        category: "Custom Build",
+        location: "Phoenix, AZ",
+        description: "A stunning luxury urban estate in Phoenix, blending modern architecture with lush desert landscaping.",
+        challenge: "The project required absolute logistical precision in an established neighborhood with high density and strict historical overlays.",
+        solution: "We utilized a flat-roof modern design with floor-to-ceiling glass to create a seamless indoor-outdoor experience while maintaining privacy.",
+        stats: {
+            sqFt: "6,200",
+            duration: "19 Months",
+            beds: "5",
+            baths: "6"
+        },
+        mainImage: "/projects/biltmore-estate.png",
+        gallery: [
+            "/projects/biltmore-internal.png",
+            "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop"
+        ],
+        testimonial: {
+            videoThumbnail: "https://images.unsplash.com/photo-1507679799987-c73774586594?q=80&w=2070&auto=format&fit=crop",
+            videoUrl: "#",
+            quote: "Stonebrook redefined our understanding of urban luxury. Their precision in the Biltmore area is legendary.",
+            author: "The Miller Estate"
+        }
+    },
+    {
+        slug: 'spur-cross-retreat',
+        title: "The Spur Cross Retreat",
+        category: "Custom Build",
+        location: "Cave Creek, AZ",
+        description: "A modern rustic masterpiece integrated into the rocky hillsides of Cave Creek.",
+        challenge: "Building on a steep, rugged terrain while preserving the natural washes and native plants required expert hillside engineering.",
+        solution: "We used a tiered foundation system and authentic desert materials like steel and locally-sourced stone to mirror the natural environment.",
+        stats: {
+            sqFt: "5,100",
+            duration: "17 Months",
+            beds: "4",
+            baths: "4.5"
+        },
+        mainImage: "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=2070&auto=format&fit=crop",
+        gallery: [
+            "https://images.unsplash.com/photo-1445013541593-44757a79f041?q=80&w=2154&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1512914890251-2f96a9b0bbe2?q=80&w=2070&auto=format&fit=crop"
+        ],
+        testimonial: {
+            videoThumbnail: "https://images.unsplash.com/photo-1445013541593-44757a79f041?q=80&w=2154&auto=format&fit=crop",
+            videoUrl: "#",
+            quote: "Our home feels like it grew out of the mountainside. The craftsmanship in Cave Creek is unparalleled.",
+            author: "The Taylor Family"
+        }
     }
 ];

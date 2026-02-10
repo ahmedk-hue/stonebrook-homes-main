@@ -4,12 +4,24 @@ import { projects } from '../../data/projects';
 
 interface RelatedProjectsProps {
     category?: string; // "Custom Build", "Whole Home Remodel", etc.
+    location?: string; // "Scottsdale", "Phoenix", etc.
     limit?: number;
 }
 
-const RelatedProjects = ({ limit = 3 }: RelatedProjectsProps) => {
-    // User request: Show all 3 deep dives on all pages, regardless of category
-    const matchingProjects = projects.slice(0, limit);
+const RelatedProjects = ({ category, location, limit = 3 }: RelatedProjectsProps) => {
+    // Dynamically filter projects based on location and category if provided
+    let matchingProjects = projects.filter(project => {
+        const matchesLocation = location ? project.location.toLowerCase().includes(location.toLowerCase()) : true;
+        const matchesCategory = category ? project.category === category : true;
+        return matchesLocation && matchesCategory;
+    });
+
+    // If no specific location matches, fallback to showing any projects to avoid empty section
+    if (matchingProjects.length === 0) {
+        matchingProjects = projects.slice(0, limit);
+    } else {
+        matchingProjects = matchingProjects.slice(0, limit);
+    }
 
     if (matchingProjects.length === 0) return null;
 

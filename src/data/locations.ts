@@ -67,7 +67,7 @@ export const locations: LocationData[] = [
         metaDescription: 'Specializing in Arcadia, Biltmore, and North Phoenix luxury custom homes. Precision construction for urban and estate properties.',
         introTitle: 'Urban Estates & Infill Excellence',
         introText: 'From the lush landscapes of Arcadia to the prestigious estates of the Biltmore, we bring precision-driven construction to Phoenix\'s most desirable neighborhoods.',
-        image: 'https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=2070&auto=format&fit=crop',
+        image: '/projects/biltmore-estate.png',
         landmarks: ['Arcadia', 'Biltmore', 'Papago Park', 'South Mountain']
     }
 ];

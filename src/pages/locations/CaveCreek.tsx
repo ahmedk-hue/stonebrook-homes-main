@@ -69,7 +69,7 @@ const CaveCreek = () => {
             <LocationHero
                 city="Cave Creek"
                 subtitle="From the foothills of Black Mountain to the trails of Spur Cross, we build homes that embody the spirit of the desert lifestyle."
-                image="https://images.unsplash.com/photo-1445013541593-44757a79f041?q=80&w=2154&auto=format&fit=crop"
+                image="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=2070&auto=format&fit=crop"
                 customersServed={110}
             />
 
@@ -103,7 +103,7 @@ const CaveCreek = () => {
                 </div>
             </section>
 
-            <RelatedProjects category="Custom Build" />
+            <RelatedProjects category="Custom Build" location="Cave Creek" />
 
             <LocalMap
                 city="Cave Creek"

@@ -103,7 +103,7 @@ const Carefree = () => {
                 </div>
             </section>
 
-            <RelatedProjects category="Custom Build" />
+            <RelatedProjects category="Custom Build" location="Carefree" />
 
             <LocalMap
                 city="Carefree"

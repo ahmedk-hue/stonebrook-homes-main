@@ -106,7 +106,7 @@ const ParadiseValley = () => {
             </section>
 
             {/* Zone 3: Local Proof */}
-            <RelatedProjects category="Custom Build" />
+            <RelatedProjects category="Custom Build" location="Paradise Valley" />
 
             {/* Zone 4: Map & Directions */}
             <LocalMap

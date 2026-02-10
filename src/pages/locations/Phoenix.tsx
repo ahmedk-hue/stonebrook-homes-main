@@ -70,7 +70,7 @@ const Phoenix = () => {
             <LocationHero
                 city="Phoenix"
                 subtitle="From the lush canals of Arcadia to the urban estates of the Biltmore, we build excellence in the heart of the Valley."
-                image="https://images.unsplash.com/photo-1507679799987-c73774586594?q=80&w=2070&auto=format&fit=crop"
+                image="/projects/biltmore-estate.png"
                 customersServed={180}
             />
 
@@ -104,7 +104,7 @@ const Phoenix = () => {
                 </div>
             </section>
 
-            <RelatedProjects category="Custom Build" />
+            <RelatedProjects category="Custom Build" location="Phoenix" />
 
             <LocalMap
                 city="Phoenix"

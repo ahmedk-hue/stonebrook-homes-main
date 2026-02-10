@@ -110,7 +110,7 @@ const Scottsdale = () => {
             </section>
 
             {/* Zone 3: Local Proof */}
-            <RelatedProjects category="Custom Build" />
+            <RelatedProjects category="Custom Build" location="Scottsdale" />
 
             {/* Zone 4: Map & Directions */}
             <LocalMap
