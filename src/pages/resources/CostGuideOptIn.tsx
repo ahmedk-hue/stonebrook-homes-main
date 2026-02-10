@@ -45,8 +45,8 @@ const CostGuideOptIn = () => {
             </Helmet>
 
             <div className="min-h-screen bg-stone-50">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-20">
-                    <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24">
+                    <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-start">
 
                         {/* Left Column: Copy */}
                         <motion.div
