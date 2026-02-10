@@ -93,7 +93,7 @@ const NewConstruction = () => {
                             className="lg:w-1/2"
                         >
                             <span className="text-primary font-bold uppercase tracking-widest text-sm block mb-4">The Antidote to Construction Chaos</span>
-                            <h2 className="text-4xl md:text-5xl font-serif font-bold text-primary mb-8 leading-tight">
+                            <h2 className="text-3xl md:text-5xl font-serif font-bold text-primary mb-8 leading-tight">
                                 Breaking the cycle of uncertainty.
                             </h2>
                             <div className="prose prose-lg text-slate-600 space-y-6">
@@ -138,7 +138,7 @@ const NewConstruction = () => {
                     <p className="text-lg text-slate-600 mb-8">
                         Most people underestimate the cost of luxury construction by 20-30%. Get the numbers first. Download our <strong>2026 Construction Cost Guide</strong> for real-world pricing trends.
                     </p>
-                    <RouterLink to="/resources/cost-guide-optin" className="inline-block bg-white border-2 border-primary text-primary px-8 py-4 font-bold uppercase tracking-widest hover:bg-primary hover:text-white transition-colors rounded-sm shadow-md">
+                    <RouterLink to="/resources/cost-guide-optin" className="inline-block bg-white border-2 border-primary text-primary px-6 py-3.5 md:px-8 md:py-4 font-bold uppercase tracking-widest hover:bg-primary hover:text-white transition-colors rounded-sm shadow-md text-xs md:text-sm">
                         Download 2026 Cost Guide
                     </RouterLink>
                     <p className="text-sm text-slate-500 mt-4 italic">Updated for the Phoenix Valley Market</p>

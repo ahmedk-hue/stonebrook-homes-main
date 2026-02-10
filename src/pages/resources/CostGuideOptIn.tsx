@@ -59,7 +59,7 @@ const CostGuideOptIn = () => {
                                 <span className="text-sm font-medium text-stone-600">Updated for Current Market Rates</span>
                             </div>
 
-                            <h1 className="text-4xl lg:text-5xl font-serif text-stone-900 leading-tight mb-6">
+                            <h1 className="text-3xl md:text-4xl lg:text-5xl font-serif text-stone-900 leading-tight mb-6">
                                 Stop Guessing. Know the <span className="italic text-stone-600">Real Cost</span> to Build in Scottsdale and the Arizona Valley.
                             </h1>
 
@@ -106,7 +106,7 @@ const CostGuideOptIn = () => {
                             initial={{ opacity: 0, x: 20 }}
                             animate={{ opacity: 1, x: 0 }}
                             transition={{ duration: 0.6, delay: 0.2 }}
-                            className="bg-white p-8 rounded-2xl shadow-xl border border-stone-100"
+                            className="bg-white p-6 md:p-8 rounded-2xl shadow-xl border border-stone-100"
                         >
                             <div className="text-center mb-8">
                                 <div className="inline-block p-3 bg-stone-100 rounded-full mb-4">

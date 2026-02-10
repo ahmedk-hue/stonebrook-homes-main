@@ -49,13 +49,13 @@ const ServiceHero = ({
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     <Link
                         to={primaryCtaLink}
-                        className="px-8 py-4 bg-[#ffffff] text-[#406868] font-bold uppercase tracking-widest hover:bg-[#406868] hover:text-white transition-colors rounded-sm shadow-xl flex items-center justify-center gap-2 group"
+                        className="px-6 py-3.5 md:px-8 md:py-4 bg-[#ffffff] text-[#406868] font-bold uppercase tracking-widest hover:bg-[#406868] hover:text-white transition-colors rounded-sm shadow-xl flex items-center justify-center gap-2 group text-xs md:text-sm"
                     >
                         {primaryCtaText} <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
                     </Link>
                     <Link
                         to={secondaryCtaLink}
-                        className="px-8 py-4 border-2 border-white text-white font-bold uppercase tracking-widest hover:bg-white hover:text-primary transition-colors rounded-sm text-center shadow-lg"
+                        className="px-6 py-3.5 md:px-8 md:py-4 border-2 border-white text-white font-bold uppercase tracking-widest hover:bg-white hover:text-primary transition-colors rounded-sm text-center shadow-lg text-xs md:text-sm"
                     >
                         {secondaryCtaText}
                     </Link>
