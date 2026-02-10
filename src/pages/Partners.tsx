@@ -166,7 +166,7 @@ const Partners = () => {
                     </div>
 
                     <div className="text-center">
-                        <a href="#partner-form" className="inline-flex items-center gap-2 bg-accent text-primary px-10 py-5 font-bold uppercase tracking-widest hover:bg-white transition-colors rounded-sm shadow-xl">
+                        <a href="#partner-form" className="inline-flex items-center gap-2 bg-accent text-white px-10 py-5 font-bold uppercase tracking-widest hover:bg-white hover:text-primary transition-colors rounded-sm shadow-xl">
                             Join Bid List <ArrowRight size={18} />
                         </a>
                     </div>
