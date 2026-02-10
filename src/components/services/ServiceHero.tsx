@@ -21,7 +21,7 @@ const ServiceHero = ({
     secondaryCtaLink = "/portfolio"
 }: ServiceHeroProps) => {
     return (
-        <section className="relative h-[80vh] min-h-[600px] flex items-center justify-center overflow-hidden">
+        <section className="relative min-h-[500px] md:h-[80vh] md:min-h-[600px] flex items-center justify-center overflow-hidden">
             {/* Background Image - Absolute Positioned */}
             <div className="absolute inset-0 w-full h-full z-0">
                 <img
@@ -39,10 +39,10 @@ const ServiceHero = ({
                 <span className="inline-block py-2 px-4 bg-accent/90 text-white font-bold uppercase tracking-widest text-sm mb-6 rounded-sm backdrop-blur-sm shadow-sm">
                     Premium Custom Home Builder
                 </span>
-                <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold text-white mb-6 leading-tight drop-shadow-xl">
+                <h1 className="text-3xl md:text-6xl lg:text-7xl font-serif font-bold text-white mb-6 leading-tight drop-shadow-xl">
                     {title}
                 </h1>
-                <p className="text-lg md:text-2xl text-slate-100 mb-10 font-light max-w-2xl mx-auto leading-relaxed drop-shadow-md">
+                <p className="text-base md:text-2xl text-slate-100 mb-10 font-light max-w-2xl mx-auto leading-relaxed drop-shadow-md">
                     {subtitle}
                 </p>
 

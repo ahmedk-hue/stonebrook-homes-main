@@ -33,7 +33,7 @@ const About = () => {
                             <img
                                 src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1887&auto=format&fit=crop"
                                 alt="Michael Leighton, Founder"
-                                className="w-full h-[600px] object-cover rounded-lg shadow-2xl relative z-10"
+                                className="w-full h-[300px] md:h-[600px] object-cover rounded-lg shadow-2xl relative z-10"
                             />
                             <div className="absolute -bottom-6 -right-6 bg-white p-6 shadow-lg rounded-lg z-20 border border-slate-100 hidden md:block">
                                 <span className="font-serif font-bold text-4xl text-primary block">40</span>

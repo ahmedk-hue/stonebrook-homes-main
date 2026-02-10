@@ -58,7 +58,7 @@ const Contact = () => {
                 ]}
             />
 
-            <section className="py-24 bg-surface min-h-screen">
+            <section className="py-16 md:py-24 bg-surface min-h-screen">
                 <div className="container mx-auto px-6 max-w-6xl">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
 
@@ -98,7 +98,7 @@ const Contact = () => {
 
                         {/* Right Column: The Wizard */}
                         <div className="order-1 lg:order-2">
-                            <div className="bg-white p-8 md:p-12 rounded-sm shadow-xl relative overflow-hidden">
+                            <div className="bg-white p-6 md:p-12 rounded-sm shadow-xl relative overflow-hidden">
 
                                 {/* Progress Bar */}
                                 <div className="absolute top-0 left-0 h-2 bg-slate-100 w-full">

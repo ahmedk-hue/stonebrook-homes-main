@@ -101,7 +101,7 @@ const Process = () => {
                 {steps.map((step, index) => (
                     <section
                         key={step.id}
-                        className={`py-20 md:py-32 ${index % 2 === 0 ? 'bg-white' : 'bg-slate-50'}`}
+                        className={`py-12 md:py-32 ${index % 2 === 0 ? 'bg-white' : 'bg-slate-50'}`}
                     >
                         <div className="container mx-auto px-6">
                             <div className={`flex flex-col gap-12 lg:gap-20 items-center ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'

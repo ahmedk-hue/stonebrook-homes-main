@@ -18,7 +18,7 @@ const Home = () => {
             />
 
             {/* Premium Hero Section - Redesigned */}
-            <section className="relative h-screen min-h-[800px] flex items-center justify-center bg-primary text-white overflow-hidden">
+            <section className="relative min-h-[700px] md:h-screen md:min-h-[800px] flex items-center justify-center bg-primary text-white overflow-hidden pt-20 md:pt-0">
                 {/* Parallax Background */}
                 <div
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat z-0 scale-105 animate-slow-zoom"
@@ -36,10 +36,10 @@ const Home = () => {
                         <span className="inline-block py-2 px-6 border-t border-b border-white/30 text-white/90 font-serif italic text-lg md:text-2xl mb-6 md:mb-8 tracking-wider backdrop-blur-sm">
                             Honesty & Precision Since {SITE_CONFIG.foundingYear}
                         </span>
-                        <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-medium mb-6 md:mb-10 leading-tight text-white drop-shadow-2xl px-2">
+                        <h1 className="text-3xl md:text-6xl lg:text-7xl font-serif font-medium mb-6 md:mb-10 leading-tight text-white drop-shadow-2xl px-2">
                             Elite Custom Home Builders<br className="hidden md:block" /> in Scottsdale & Paradise Valley
                         </h1>
-                        <p className="text-base md:text-xl mb-10 md:mb-14 text-white max-w-3xl mx-auto font-light leading-relaxed tracking-wide drop-shadow-md bg-black/10 backdrop-blur-sm p-4 rounded-sm">
+                        <p className="text-sm md:text-xl mb-10 md:mb-14 text-white max-w-3xl mx-auto font-light leading-relaxed tracking-wide drop-shadow-md bg-black/10 backdrop-blur-sm p-4 rounded-sm">
                             Where aviation-level discipline meets architectural vision. Experience the art of luxury living with Scottsdale's most transparent custom builder.
                         </p>
                     </motion.div>

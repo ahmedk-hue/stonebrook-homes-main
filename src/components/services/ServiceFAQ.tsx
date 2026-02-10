@@ -16,9 +16,9 @@ const ServiceFAQ = ({ faqs, title = "Frequently Asked Questions" }: ServiceFAQPr
     const [openIndex, setOpenIndex] = useState<number | null>(0);
 
     return (
-        <section className="py-24 bg-white">
+        <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-6 max-w-4xl">
-                <h2 className="text-3xl font-serif font-bold text-primary text-center mb-16">{title}</h2>
+                <h2 className="text-3xl font-serif font-bold text-primary text-center mb-10 md:mb-16">{title}</h2>
 
                 <div className="space-y-4">
                     {faqs.map((faq, index) => (

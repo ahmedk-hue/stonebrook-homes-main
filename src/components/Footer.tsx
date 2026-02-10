@@ -5,14 +5,14 @@ import { SITE_CONFIG } from '../config/site';
 
 const Footer = () => {
     return (
-        <footer className="bg-[#0f1d1d] text-slate-400 pt-20 pb-10 border-t border-white/5">
+        <footer className="bg-[#0f1d1d] text-slate-400 pt-16 md:pt-20 pb-10 border-t border-white/5">
             <div className="container mx-auto px-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:flex lg:justify-between lg:gap-10 mb-16">
 
                     {/* Brand Col */}
                     <div className="lg:w-[30%]">
                         <Link to="/" className="inline-block mb-6">
-                            <img src="/logo.png" alt={SITE_CONFIG.name} className="h-auto w-72 brightness-0 invert" />
+                            <img src="/logo.png" alt={SITE_CONFIG.name} className="h-auto w-full max-w-[280px] brightness-0 invert" />
                         </Link>
                         <p className="mb-6 leading-relaxed max-w-sm">
                             Serving {SITE_CONFIG.serviceAreas[0].name}, {SITE_CONFIG.serviceAreas[1].name}, and surrounding areas since {SITE_CONFIG.foundingYear}. We build quality custom homes tailored to your lifestyle and land.

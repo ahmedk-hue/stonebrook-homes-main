@@ -68,7 +68,7 @@ const Header = () => {
                     <img
                         src="/logo.png"
                         alt={SITE_CONFIG.name}
-                        className={`h-16 w-auto object-contain transition-all duration-300 ${logoFilter}`}
+                        className={`h-12 md:h-16 w-auto object-contain transition-all duration-300 ${logoFilter}`}
                     />
                 </Link>
 

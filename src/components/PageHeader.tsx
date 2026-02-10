@@ -11,7 +11,7 @@ interface PageHeaderProps {
 
 const PageHeader: React.FC<PageHeaderProps> = ({ title, subtitle, backgroundImage, breadcrumbs }) => {
     return (
-        <section className="relative h-[450px] flex items-center justify-center pt-24 bg-primary text-white overflow-hidden">
+        <section className="relative min-h-[350px] md:h-[450px] flex items-center justify-center pt-32 pb-12 md:pt-24 bg-primary text-white overflow-hidden">
             <div
                 className="absolute inset-0 bg-cover bg-center bg-fixed"
                 style={{ backgroundImage: `url(${backgroundImage})` }}

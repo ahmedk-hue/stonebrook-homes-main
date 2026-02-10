@@ -12,7 +12,7 @@ interface LocationHeroProps {
 
 const LocationHero = ({ city, subtitle, image, customersServed }: LocationHeroProps) => {
     return (
-        <section className="relative bg-primary border-b border-white/10 pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
+        <section className="relative bg-primary border-b border-white/10 pt-32 pb-20 md:pt-48 md:pb-32 overflow-hidden">
             <div className="container mx-auto px-6 relative z-10">
                 <div className="flex flex-col lg:flex-row gap-12 lg:gap-20 items-center">
 

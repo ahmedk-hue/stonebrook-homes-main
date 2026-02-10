@@ -31,7 +31,7 @@ const PremiumPortfolio = ({ showViewAll = true }: { showViewAll?: boolean }) => 
                         <div className="absolute inset-0 bg-primary/40 group-hover:bg-primary/20 transition-colors duration-500"></div>
 
                         {/* Content Content - Slides up on hover */}
-                        <div className="absolute inset-0 p-12 flex flex-col justify-end pointer-events-none">
+                        <div className="absolute inset-0 p-6 md:p-12 flex flex-col justify-end pointer-events-none">
                             <div className="">
                                 <span className="text-white text-sm font-bold tracking-widest uppercase mb-2 block transition-opacity duration-500">
                                     {project.category}
