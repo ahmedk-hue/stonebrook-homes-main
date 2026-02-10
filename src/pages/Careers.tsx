@@ -92,7 +92,7 @@ const Careers = () => {
                             <div key={i} className="bg-white/5 border border-white/10 rounded-lg p-8 hover:bg-white/10 transition-colors flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
                                 <div>
                                     <h3 className="text-2xl font-bold font-serif mb-2">{job.title}</h3>
-                                    <div className="flex items-center gap-4 text-sm text-accent font-bold uppercase tracking-widest mb-4">
+                                    <div className="flex items-center gap-4 text-sm text-white font-bold uppercase tracking-widest mb-4">
                                         <span>{job.type}</span>
                                         <span className="w-1 h-1 bg-white/50 rounded-full"></span>
                                         <span>{job.location}</span>
@@ -165,7 +165,7 @@ const Careers = () => {
                                 <textarea rows={6} className="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-sm focus:ring-2 focus:ring-primary focus:border-transparent outline-none" placeholder="Please paste your resume text here or describe your relevant work history..."></textarea>
                             </div>
 
-                            <button type="submit" className="w-full bg-accent text-primary font-bold uppercase tracking-widest py-4 hover:bg-white transition-colors shadow-lg border-2 border-transparent hover:border-accent">
+                            <button type="submit" className="w-full bg-accent text-white font-bold uppercase tracking-widest py-4 hover:bg-white hover:text-primary transition-colors shadow-lg border-2 border-transparent hover:border-accent">
                                 Submit Application
                             </button>
                         </form>
