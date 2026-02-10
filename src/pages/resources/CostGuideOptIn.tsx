@@ -93,10 +93,9 @@ const CostGuideOptIn = () => {
 
                             <div className="flex items-center gap-4 text-sm text-stone-500">
                                 <div className="flex -space-x-2">
-                                    {/* Placeholder avatars */}
-                                    <div className="w-8 h-8 rounded-full bg-stone-300 border-2 border-white"></div>
-                                    <div className="w-8 h-8 rounded-full bg-stone-400 border-2 border-white"></div>
-                                    <div className="w-8 h-8 rounded-full bg-stone-500 border-2 border-white"></div>
+                                    <img src="/images/avatars/avatar1.png" alt="Local Homeowner" className="w-8 h-8 rounded-full border-2 border-white object-cover" />
+                                    <img src="/images/avatars/avatar2.png" alt="Local Homeowner" className="w-8 h-8 rounded-full border-2 border-white object-cover" />
+                                    <img src="/images/avatars/avatar3.png" alt="Local Homeowner" className="w-8 h-8 rounded-full border-2 border-white object-cover" />
                                 </div>
                                 <p>Downloaded by 500+ local homeowners</p>
                             </div>
