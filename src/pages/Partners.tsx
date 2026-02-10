@@ -39,7 +39,7 @@ const Partners = () => {
                     <div className="flex flex-col lg:flex-row items-center gap-16">
                         <div className="lg:w-1/2">
                             <div className="flex items-center gap-3 mb-4">
-                                <div className="p-3 bg-accent text-primary rounded-lg">
+                                <div className="p-3 bg-accent text-white rounded-lg">
                                     <Handshake size={24} />
                                 </div>
                                 <span className="font-bold text-primary tracking-widest uppercase text-sm">For Realtors</span>
