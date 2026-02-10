@@ -140,7 +140,7 @@ export const blogPosts: BlogPost[] = [
         authorRole: "Co-Founder & COO",
         date: "February 1, 2025",
         readTime: "8 min read",
-        image: "https://images.unsplash.com/photo-1513584685908-42c9e12d4490?q=80&w=2070&auto=format&fit=crop",
+        image: "/images/blog/paradise-valley-standards-cover.png",
         youtubeVideoId: "dQw4w9WgXcQ",
         toc: [
             { id: "answer-box", label: "Quick Summary" },
